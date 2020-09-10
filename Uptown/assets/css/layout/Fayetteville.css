@@ -1,0 +1,23 @@
+.Fayetteville h2 {
+	margin-bottom: 21px;
+}
+
+.Fayetteville p {
+	font-weight: 700;
+	margin-bottom: 120px;
+	width: 80%;
+}
+
+@media (max-width: 1024px) {
+	
+}
+
+@media (max-width: 768px) {
+	.Fayetteville h2 {
+		max-width: 300px;
+	}
+
+	.Fayetteville p {
+		max-width: 300px;
+	}
+}

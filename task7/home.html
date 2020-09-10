@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Task 7</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="shell clear">
+					<div class="logo">
+						<a href="#">
+							<img src="css/images/logo.png" alt="">
+						</a>
+					</div><!-- ./logo -->
+
+					<div class="application clear">
+						<div class="application-btn">
+							<a href="#" class="btn">
+								<i class="fa fa-file-text-o" aria-hidden="true"></i>
+								&nbsp;
+								New Application
+							</a>
+						</div><!-- ./application-btn -->
+
+						<div class="application-icon">
+							<a href="#">
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</a>
+						</div><!-- ./application-icon -->
+					</div><!-- ./application -->
+				</div><!-- ./shell -->
+			</header><!-- ./header -->
+
+			<section class="section">
+				<div class="shell">
+					<div class="content clear">
+						<div class="contact">
+							<h1>Contact: <span>John Smith (12345)</span></h1>
+
+							<div class="form">
+								<form action="?" method="post">
+									<div class="form__section">
+										<div class="form__section-head">
+											<h2>Details</h2>
+										</div><!-- /.form__section-head -->
+
+										<div class="form__section-body">
+											<div class="form__cols">
+												<div class="form__col form__col--1of2">
+													<div class="form__row">
+														<label for="title" class="form__label">Title</label>
+														
+														<div class="form__controls">
+															<div class="select">
+																<select name="select_title" id="select_title" class="field">
+																	<option value="1" selected>Choose...</option>
+																	
+																	<option value="2">Mr.</option>
+														
+																	<option value="3">Mr.</option>
+																</select>
+															</div><!-- /.select -->
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->
+
+													<div class="form__row">
+														<label for="fname" class="form__label">First name</label>
+														
+														<div class="form__controls">
+															<div class="field_mandatory">
+																<input type="text" class="field" id="fname">
+															</div><!-- /.field_fname -->
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->
+
+													<div class="form__row">
+														<label for="mname" class="form__label">Middle name</label>
+														
+														<div class="form__controls">
+															<input type="text" class="field" id="mname">
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->
+
+													<div class="form__row">
+														<label for="lname" class="form__label">Last name</label>
+														
+														<div class="form__controls">
+															<div class="field_mandatory">
+																<input type="text" class="field" id="lname">
+															</div><!-- /.field_fname -->
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->
+
+												</div><!-- /.form__col form__col-/-1of2 -->
+												
+												<div class="form__col form__col--1of2">
+													<div class="form__row">
+														<label for="gender" class="form__label">Gender</label>
+														
+														<div class="form__controls">
+															<div class="select">
+																<select name="select_gender" id="select_gender" class="field">
+																	<option value="1" selected>Choose...</option>
+																	
+																	<option value="2">Mr.</option>
+														
+																	<option value="3">Mr.</option>
+																</select>
+															</div><!-- /.select -->
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->
+
+													<div class="form__row">
+														<label for="dob" class="form__label">DOB</label>
+														
+														<div class="form__controls">
+															<input type="text" class="field field-img" id="dob">
+
+															<img src="css/images/date.png" alt="" class="date_img">
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->
+
+													<div class="form__row">
+														<label for="marital-status" class="form__label">Marital Status</label>
+														
+														<div class="form__controls">
+															<div class="select">
+																<select name="marital-status" id="marital-status" class="field">
+																	<option value="1" selected>Choose...</option>
+																	
+																	<option value="2">Married</option>
+														
+																	<option value="3">Divorced</option>
+																</select>
+															</div><!-- /.select -->
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->
+
+													<div class="form__row">
+														<div class="form__cols">
+															<div class="form__col form__col--1of2">
+																<label for="dependants" class="form__label">Dependants</label>
+																	
+																<div class="form__controls">
+																	<div class="select">
+																		<select name="select_dependants" id="select_dependants" class="field">
+																			<option value="1" selected>Choose...</option>
+																				
+																			<option value="2">Option 1</option>
+																	
+																			<option value="3">Option 2</option>
+																		</select>
+																	</div><!-- /.select -->
+
+																	<div class="form__hint">
+																		No.
+																	</div><!-- /.form__hint -->
+																</div><!-- /.form__controls -->
+															</div><!-- /.form__cols -->
+
+															<div class="form__col form__col--1of2">																	
+																<div class="form__controls">
+																	<input type="text" class="field no-label" id="ages">
+
+																	<div class="form__hint">
+																		Ages. Comma seperate
+																	</div><!-- /.form__hint -->
+																</div><!-- /.form__controls -->
+															</div><!-- /.form__col -->
+														</div><!-- /.form__cols -->
+													</div><!-- /.form__row -->
+
+
+												</div><!-- /.form__col form__col-/-1of2 -->
+											</div><!-- /.form__cols -->
+										</div><!-- /.form__section-body -->
+									</div>
+
+									<div class="form__section">
+										<div class="form__cols">
+											<div class="form__col form__col--1of2">
+												<div class="form__section-head">
+													<h2>Drivers Licence</h2>
+												</div><!-- /.form__section-head -->
+												
+												<div class="form__section-body">
+													<div class="form__row">
+														<label for="number" class="form__label">Number</label>
+														
+														<div class="form__controls">
+															<input type="text" class="field" id="number">				
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->
+
+													<div class="form__row">
+														<label for="state" class="form__label">State</label>
+														
+														<div class="form__controls">
+															<div class="select">
+																<select name="select_state" id="select_state" class="field">
+																	<option value="1" selected>Choose...</option>
+																	
+																	<option value="2">State 1</option>
+														
+																	<option value="3">State 2</option>
+																</select>
+															</div><!-- /.select -->
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->
+
+													<div class="form__row">
+														<label for="expiry" class="form__label">Expiry</label>
+														
+														<div class="form__controls">
+															<input type="text" class="field field-img" id="expiry">
+
+															<img src="css/images/date.png" alt="" class="date_img">
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->
+												</div><!-- /.form__section-body -->
+											</div><!-- /.form__col form__col-/-1of2 -->
+											
+											<div class="form__col form__col--1of2">
+												<div class="form__section-head">
+													<h2>Contact Info</h2>
+												</div><!-- /.form__section-head -->
+
+												<div class="form__section-body">
+													<div class="form__row">
+														<label for="phone" class="form__label">Home Phone</label>
+														
+														<div class="form__controls">
+															<input type="text" class="field" id="phone">
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->
+
+													<div class="form__row">
+														<label for="mobile" class="form__label">Mobile</label>
+														
+														<div class="form__controls">
+															<input type="text" class="field" id="mobile">
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->
+
+													<div class="form__row">
+														<label for="email" class="form__label">Email</label>
+														
+														<div class="form__controls">
+															<input type="text" class="field" id="email">
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__row -->													
+												</div><!-- /.form__section-body -->
+											</div><!-- /.form__col form__col-/-1of2 -->
+										</div><!-- /.form__cols -->
+									</div><!-- /.form__section -->
+
+									<div class="form__section">
+										<div class="form__section-head">
+											<h2>Address</h2>
+										</div><!-- /.form__section-head -->
+
+										<div class="form__section-body">
+											<div class="form__row">
+												<div class="form__cols">
+													<div class="form__col form__col--1of2">
+														<div class="form__cols">
+																<div class="form__col form__col--1of2">
+																	<label for="unit" class="form__label">Unit #</label>
+																	
+																	<div class="form__controls">
+																		<input type="text" class="field" id="unit">
+																	</div><!-- /.form__controls -->
+																</div><!-- /.form__cols -->
+
+																<div class="form__col form__col--1of2">
+																	<label for="street#" class="form__label">Street #</label>
+																	
+																	<div class="form__controls">
+																		<input type="text" class="field" id="street#">
+																	</div><!-- /.form__controls -->
+																</div><!-- /.form__col -->
+														</div><!-- /.form__cols -->
+													</div><!-- /.form__col -->
+													
+													<div class="form__col form__col--1of2">
+														<label for="street" class="form__label">Street</label>
+														
+														<div class="form__controls">
+															<input type="text" class="field" id="street">
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__col -->
+												</div><!-- /.form__cols -->
+											</div><!-- /.form__row -->
+
+											<div class="form__row">
+												<div class="form__cols">
+													<div class="form__col form__col--1of2">
+														<label for="select_type" class="form__label">Street Type</label>
+														
+														<div class="form__controls">
+															<div class="select">
+																<select name="select_type" id="select_type" class="field">
+																	<option value="1" selected>Choose...</option>
+																	
+																	<option value="2">First</option>
+														
+																	<option value="3">Second</option>
+																</select>
+															</div><!-- /.select -->
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__cols -->
+
+													<div class="form__col form__col--1of2">
+														<label for="suburb" class="form__label">Suburb</label>
+														
+														<div class="form__controls">
+															<input type="text" class="field" id="suburb">
+														</div><!-- /.form__controls -->
+													</div><!-- /.form__col -->
+												</div><!-- /.form__cols -->
+											</div><!-- /.form__row -->
+
+											<div class="form__row">
+												<div class="form__cols">
+													<div class="form__col form__col--1of2">
+														<div class="form__cols">
+															<div class="form__col form__col--1of2">
+																<label for="state-address" class="form__label">State</label>
+																
+																<div class="form__controls">
+																	<div class="select">
+																		<select name="select_state_address" id="select_state_address" class="field">
+																			<option value="1" selected>Choose...</option>
+																			
+																			<option value="2">First</option>
+																
+																			<option value="3">Second</option>
+																		</select>
+																	</div><!-- /.select -->
+																</div><!-- /.form__controls -->
+															</div><!-- /.form__cols -->
+
+															<div class="form__col form__col--1of2">
+																<label for="postcode" class="form__label">Postcode</label>
+																
+																<div class="form__controls">
+																	<input type="text" class="field" id="postcode">
+																</div><!-- /.form__controls -->
+															</div><!-- /.form__col -->
+														</div><!-- /.form__cols -->
+													</div><!-- /.form__col -->
+												</div><!-- /.form__cols -->
+											</div><!-- /.form__row -->
+										</div><!-- /.form__section-body -->
+									</div><!-- /.form__section -->
+								
+									<div class="form__actions clear">
+										<div class="form__actions-note">
+											<p>Required field</p>
+										</div><!-- /.entry -->
+
+										<a href="#" class="form__btn">Save</a>
+									</div><!-- /.form__actions -->
+								</form>
+							</div><!-- ./form -->
+						</div><!-- ./contact -->
+
+						<div class="stats">
+							<section class="section__summary">
+								<div class="section__summary__head">
+									<h2>Summary</h2>
+								</div><!-- /.section__summary__head -->
+
+								<div class="section__summary__body">
+									<p><strong>Type:</strong> Individual</p>
+
+									<p><strong>Created:</strong>  24/11/2014 14:12 by John Smith</p>
+
+									<p><strong>Last Updated:</strong>  25/11/2014 10:23 by John Smith</p>
+								</div><!-- /.section__summary__body -->
+							</section><!-- /.section__summary -->
+
+							<section class="section__leads">
+								<div class="section__leads__head">
+									<h2>Leads</h2>
+								</div><!-- /.section__leads__head -->
+
+								<div class="section__leads__body">
+									<div class="table">
+										<table>
+											<colgroup>
+												<col class="col-size-1">
+												
+												<col class="col-size-2">
+												
+												<col class="col-size-3">
+												
+												<col class="col-size-4">
+												
+												<col class="col-size-5">
+											</colgroup>
+											
+											<thead>
+												<tr class="table-head-row">
+													<th>ID</th>
+
+													<th>Amount</th>
+
+													<th>Created</th>
+
+													<th>Team Member</th>
+
+													<th>Status</th>
+												</tr>
+											</thead>
+											
+											<tbody>
+												<tr>
+													<td>11111</td>
+
+													<td>$55,000</td>
+
+													<td>24/11/14 09:32</td>
+
+													<td>Trent Pitt</td>
+
+													<td>New Lead</td>
+												</tr>
+
+												<tr>
+													<td>11112</td>
+
+													<td>$15,000</td>
+
+													<td>24/11/14 13:18</td>
+
+													<td>Trent Pitt</td>
+
+													<td>New Lead</td>
+												</tr>
+
+												<tr>
+													<td>11113</td>
+
+													<td>$100,000</td>
+
+													<td>24/11/14 11:32</td>
+
+													<td>Trent Pitt</td>
+
+													<td>Converted App</td>
+												</tr>
+
+												<tr>
+													<td>11111</td>
+
+													<td>$55,000</td>
+
+													<td>24/11/14 09:32</td>
+
+													<td>Trent Pitt</td>
+
+													<td>Lost</td>
+												</tr>
+											</tbody>
+										</table>
+									</div><!-- /.table -->
+								</div><!-- /.section__leads__body -->																
+							</section><!-- /.section__leads -->
+
+							<section class="section__application">
+								<div class="section__application__head clear">
+									<div class="head-header">
+										<h2>Applications</h2>
+									</div><!-- /.head-header -->
+
+									<div class="head-actions">
+										<a href="#" class="btn">
+											<i class="fa fa-file-text-o" aria-hidden="true"></i>
+											New Application
+										</a>
+									</div><!-- /.head-actions -->
+								</div><!-- /.section__application__head -->
+
+								<div class="section__application__body">
+									<div class="table">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											<colgroup>
+												<col class="col-size-1">
+												
+												<col class="col-size-2">
+												
+												<col class="col-size-3">
+												
+												<col class="col-size-4">
+												
+												<col class="col-size-5">
+											</colgroup>
+											
+											<thead>
+												<tr class="table-head-row">
+													<th>ID</th>
+
+													<th>Amount</th>
+
+													<th>Created</th>
+
+													<th>Team Member</th>
+
+													<th>Status</th>
+												</tr>
+											</thead>
+											
+											<tbody>
+												<tr>
+													<td>11111</td>
+
+													<td>$55,000</td>
+
+													<td>24/11/14 09:32</td>
+
+													<td>Trent Pitt</td>
+
+													<td>Conditionally Approved</td>
+												</tr>
+
+												<tr>
+													<td>11112</td>
+
+													<td>$15,000</td>
+
+													<td>24/11/14 13:18</td>
+
+													<td>Trent Pitt</td>
+
+													<td>Conditionally Approved</td>
+												</tr>
+
+												<tr>
+													<td>11113</td>
+
+													<td>$100,000</td>
+
+													<td>24/11/14 11:32</td>
+
+													<td>Trent Pitt</td>
+
+													<td>Conditionally Approved</td>
+												</tr>
+
+												<tr>
+													<td>11111</td>
+
+													<td>$55,000</td>
+
+													<td>24/11/14 09:32</td>
+
+													<td>Trent Pitt</td>
+
+													<td>Conditionally Approved</td>
+												</tr>
+											</tbody>
+										</table>
+									</div><!-- /.table -->
+								</div><!-- /.section__application__body -->																
+							</section><!-- /.section__application -->
+							
+							<section class="section__contact">
+								<div class="section__contact__head">
+									<h2>Related Contacts</h2>
+								</div><!-- /.section__contact__head -->
+
+								<div class="section__contact__body">
+									<div class="table">
+										<div class="table">
+											<table>
+												<colgroup>
+													<col class="col-size-6">
+
+													<col class="col-size-7">
+
+													<col class="col-size-8">
+
+													<col class="col-size-9">
+												</colgroup>
+												<thead>
+													<tr class="table-head-row">
+														<th>ID</th>
+
+														<th>First name</th>
+
+														<th>Last name</th>
+
+														<th>Phone</th>
+													</tr>
+												</thead>
+												
+												<tbody>
+													<tr>
+														<td>11111</td>
+
+														<td>Tim</td>
+
+														<td>Long</td>
+
+														<td>0412123456</td>
+													</tr>
+												</tbody>
+											</table>
+										</div><!-- /.table -->
+									</div><!-- /.table -->
+								</div><!-- /.section__contact__body -->
+							</section><!-- /.section__contact -->
+
+							<section class="section__business">
+								<div class="section__business__head">
+									<h2>Businesses</h2>
+								</div><!-- /.section__business__head -->
+
+								<div class="section__business__body">
+									<div class="table">
+										<div class="table">
+											<table>
+												<colgroup>
+													<col class="col-size-6">
+
+													<col class="col-size-10">
+												</colgroup>
+												<thead>
+													<tr class="table-head-row">
+														<th>ID</th>
+
+														<th>Name</th>
+													</tr>
+												</thead>
+												
+												<tbody>
+													<tr>
+														<td>11111</td>
+
+														<td>YZ Business</td>
+													</tr>
+												</tbody>
+											</table>
+										</div><!-- /.table -->
+									</div><!-- /.table -->
+								</div><!-- /.section__business__body -->
+							</section><!-- /.section__business -->
+						</div><!-- /.stats -->
+					</div><!-- ./content -->
+				</div><!-- ./shell -->		
+			</section><!-- ./section -->
+
+			<footer class="footer">
+				<div class="shell">
+					<div class="footer-content">
+						<p>&copy; Copyright 2015 - 360 Finance Pty Ltd - <a href="#">www.360finance.com.au</a></p>
+					</div><!-- /.content -->
+				</div><!-- /.shell -->
+			</footer><!-- /.footer -->
+		</div><!-- ./wrapper -->
+	</body>
+</html>

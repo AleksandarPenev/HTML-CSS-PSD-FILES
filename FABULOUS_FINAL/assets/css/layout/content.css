@@ -1,0 +1,96 @@
+.image-box {
+	text-align: center;
+}
+
+.image-box .item {
+	height: 275px;
+	max-width: 225px;
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 55px;
+	position: relative;
+	margin-left: 5px;
+}
+
+.image-box .item:after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 10px;
+	background: #333333;
+	position: absolute;
+	margin-bottom: 25px;
+	margin-top: 40px !important;
+
+	bottom: -70px;
+	left: 0;
+	transition: 0.3s;
+}
+
+.image-box .item:hover:after {
+	background: #ff4653;
+}
+
+.image-box .first_img {
+	background: url(../../img/Jellyfish.jpg);
+}
+
+.image-box .second_img {
+	background: url(../../img/Shore.jpg);
+}
+
+.image-box .item a  {
+	display: inline-block;
+	padding: 10px 15px;
+	background: #ff4653;
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: 'tinos';
+	text-decoration: none;
+	color: #504242;
+	margin-top: 110px;
+	box-shadow: 0 4px 0 0 #A9323A;
+	transition: 0.3s;
+	opacity: 0;
+}
+
+.image-box .item a:hover {
+	background: #FA7070;
+	color: #fff;
+}
+
+.image-box .item:hover a {
+	opacity: 1;
+}
+
+.link {
+	float: right;
+	margin-bottom: 42px;
+}
+
+.link a {
+	font-size: 18px;
+	font-family: 'tinos';
+	text-decoration: none;
+	color: #ff4653;
+	transition: 0.3s;
+}
+
+.link a:hover {
+	color: #B72C36;
+}
+
+.content {
+	border-bottom: 5px solid #ff4653;
+}
+
+
+/**/
+/*large*/
+
+@media only screen and (max-width: 1200px) {
+	.image-box {
+		margin: 15px 0;
+	}
+}
+

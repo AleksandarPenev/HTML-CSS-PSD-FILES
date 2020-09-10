@@ -1,0 +1,26 @@
+.stats {
+	padding: 63px 0;
+	background-color: #212c3f;
+}
+
+.stats img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+@media (max-width: 992px){
+
+	.stats .img2 img {
+		margin-bottom: 40px; 
+	}
+}
+
+@media (max-width: 767px) {
+	.stats img {
+		margin-bottom: 40px; 
+	}
+	.stats .img4 img {
+		margin-bottom: 0; 
+	}
+}

@@ -1,0 +1,170 @@
+header .logo {
+	margin-top: 33px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+header .logo a {
+	font-size: 37px;
+	font-family: 'Molle';
+	color: #161f32;
+	text-decoration: none;
+}
+
+.canvas-menu {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+
+	right: -100%;
+	top: 0;
+	background-color: #212c3f;
+	z-index: 100;
+	transition: 0.3s;
+	padding: 60px 40px 40px 40px;
+}
+
+.canvas-menu.active {
+	right: -45%;
+}
+
+.canvas-menu ul {
+	width: 100%;
+}
+
+.canvas-menu ul li { 
+	line-height: 11px;
+	border-bottom: 1px solid #373432;
+}
+
+.canvas-menu ul li a {
+    display: inline-block;
+    font-family: 'latoregular';
+    font-size: 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #999999;
+    padding: 11px 0 20px 0;
+ }
+
+ .canvas-menu ul li a:hover {
+ 	color: #C1C0C0;
+ }
+
+ .canvas-menu ul li.current a {
+ 	color: white;
+ }
+
+ .canvas-button {
+ 	width: 26px;
+ 	height: 22px;
+ 	float: right;
+ 	position: absolute;
+ 	right: 93px;
+ 	top: 50px;
+ 	cursor: pointer;
+ }
+
+
+.canvas-button span {
+	display: block;
+	height: 4px;
+	width: 100%;
+	background-color: #333;
+ 	margin-bottom: 2px;
+}
+
+.canvas-button_menu {
+	width: 40px;
+ 	height: 33px;
+ 	right: 50%;
+ 	position: absolute;
+ 	top: 35px;
+ 	cursor: pointer;
+ 	z-index: 100;
+}
+
+.canvas-button_menu span {
+	display: block;
+	height: 7px;
+	width: 100%;
+	background-color: #fff;
+	position: absolute;
+}
+
+.canvas-button_menu span:nth-child(1) {
+	top: -2px;
+	transform: rotate(45deg);
+	transform-origin: 0 50%;
+	left: 7px;
+}
+
+ .canvas-button_menu span:nth-child(2) {
+ 	bottom: 0;
+ 	transform: rotate(-45deg);
+	transform-origin: 0 50%;
+	left: 7px;
+}
+
+header .shell {
+	background-color: #546279;
+	height: 700px;
+	padding-top: 170px;
+}
+
+header .shell .title {
+	background-color: #212c3f;
+	padding-top: 44px;
+	padding-bottom: 68px;
+}
+
+header .shell .title h2 {
+	font-size: 52px;
+	font-family: 'Molle';
+	text-align: center;
+	color: #79808b;
+	margin-bottom: 25px;
+}
+
+header .shell .title .line {
+	height: 1px;
+	background-color: #fff;
+	max-width: 571px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+header .shell .title p {
+	font-size: 15px;
+	font-family: 'latoregular';
+	color: #fff;
+	text-align: center;
+	max-width: 722px;
+	width: 80%;
+	margin: 0 auto 22px;
+	line-height: 18px;
+}
+
+header .shell .title a {
+	border: 1px solid #fff;
+	width: 178px;
+	display: block;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'latoregular';
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 33px;
+	margin: 0 auto;
+}
+
+header .shell .title a:hover {
+	background-color:  #171D28;
+}
+
+@media (max-width: 992px) {
+	.canvas-button {
+		right: 45px;
+	}
+}

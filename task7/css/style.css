@@ -1,0 +1,514 @@
+/* ------------------------------------------------------------ *\
+	Reset
+\* ------------------------------------------------------------ */
+
+* { 
+	padding: 0; 
+	margin: 0; 
+	outline: 0; 
+	box-sizing: border-box; 
+}
+
+*:before,
+*:after { 
+	box-sizing: inherit; 
+}
+
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+body { 
+	font-family: 'Source Sans Pro', 'Arial', sans-serif; 
+	font-size: 14px; 
+	color: #364247;
+	line-height: 1.14;
+	background-color: #eeeeee;
+}
+
+a { 
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #858585;
+}
+
+h1 {
+	font-size: 24px;
+	font-family: 'Noto Serif', serif;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 18px;
+	font-family: 'Noto Serif', serif;
+}
+
+h3 {
+	font-size: 16px;
+	font-family: 'Noto Serif', serif;
+}
+
+h4 {
+	font-size: 14px;
+	font-family: 'Noto Serif', serif;
+}
+
+h5 {
+	font-size: 12px;
+	font-family: 'Noto Serif', serif;
+}
+
+h6 {
+	font-size: 10px;
+	font-family: 'Noto Serif', serif;
+}
+
+/* ------------------------------------------------------------ *\
+	Clear
+\* ------------------------------------------------------------ */
+
+.clear {
+	position: relative;
+}
+
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ------------------------------------------------------------ *\
+	Shell
+\* ------------------------------------------------------------ */
+
+.shell {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header {
+	background-color: #fff;
+	border-bottom: 1px solid #39454d;
+}
+
+.header .logo {
+	float: left;
+	margin-top: 7px;
+}
+
+.header .application {
+	float: right;
+}
+
+.application-btn {
+	width: 222px;
+	height: 60px;
+	background-color: #577983;
+	float: left;
+	border-left: 1px solid #39454d;
+	padding: 10px 0 0 29px;
+}
+
+.btn {
+	width: 162px;
+	height: 40px;
+	background-color: #ff524f;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 8px 0 0 20px;
+	color: #fff;
+	transition: .3s;
+}
+
+.btn:hover {
+	background-color: #CF4644;
+}
+
+.btn i {
+	font-size: 21px;
+}
+
+.header .application-icon {
+	width: 60px;
+	height: 60px;
+	background-color: #dfe5e7;
+	float: right;
+	border-left: 1px solid #39454d;
+	border-right: 1px solid #39454d;
+	padding: 10px 0 0 16px;
+}
+
+.header .application-icon i {
+	font-size: 38px; 
+}
+
+/* ------------------------------------------------------------ *\
+	Content
+\* ------------------------------------------------------------ */
+
+.section {
+	padding: 46px 0 99px;
+}
+
+.content {
+	border: 1px solid #39454d;
+	border-radius: 5px;
+}
+
+.contact {
+	width: 609px;
+	float: left;
+	padding: 29px 15px 21px 16px;
+}
+
+.contact h1 {
+	margin-bottom: 21px;
+}
+
+/* ------------------------------------------------------------ *\
+	Form
+\* ------------------------------------------------------------ */
+
+.form__section {
+	padding: 10px 14px 15px 15px;
+	border-radius: 5px;
+	background-color: #eee;
+	margin-bottom: 14px;
+}
+
+.form__section-head {
+	margin-bottom: 22px;
+}
+
+.form__cols {
+	margin: 0 -10px;
+}
+
+.form__cols:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.form__col {
+	float: left;
+	width: 100%;
+	padding: 0 10px;
+}
+
+.form__col--1of2 {
+	width: 50%;
+}
+
+.form__col--1of4 {
+	width: 25%;
+}
+
+.form__row + .form__row {
+	margin-top: 22px;
+}
+
+.form__label {
+	display: block;
+}
+
+.form__controls {
+	position: relative;
+}
+
+.form__hint {
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.form__actions {
+	padding: 4px 0 0 32px;
+}
+
+.form__actions-note {
+	float: left;
+	position: relative;
+	margin-top: 30px;
+}
+
+.form__actions:after {
+	position: absolute;
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 20px;
+	background-color: #ff5250;
+	top: 31px;
+    left: 15px;
+}
+
+.form__btn {
+	float: right;
+	vertical-align: middle;
+	height: 40px;
+	line-height: 40px;
+	background-color: #ff5250;
+	color: #fff;
+	padding: 0 57px;
+	font-weight: 14px;
+	border-radius: 5px;
+	margin: 16px 12px 0 0px;
+	transition: .3s; 
+}
+
+.form__btn:hover {
+	color: #fff;
+	background-color: #BC3937; 
+}
+
+/* ------------------------------------------------------------ *\
+	Field
+\* ------------------------------------------------------------ */
+
+.field {
+	padding: 0 4px 0 4px;
+	margin-top: 7px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	font-size: 15px;
+	height: 40px;
+	width: 100%;
+	appearance: none;
+}
+
+.select {
+	position: relative;
+}
+
+.select:after {
+	content: '';
+	display: inline-block;
+	width: 13px;
+	height: 7px;
+	background-image: url(images/icon_arrow.png);
+	position: absolute;
+	top: 23px;
+	right: 12px;
+}
+
+.field--age {
+	margin-left: 3px;
+}
+
+.field-img {
+	width: 85%;
+	vertical-align: top;
+}
+
+.date_img {
+	margin-top: 13px;
+    margin-left: 7px;
+}
+
+.field_mandatory:after {
+	position: absolute;
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 38px;
+    margin: 8px 1px 0 0;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+    background-color: #ff5250;
+}
+
+.no-label {
+	margin-top: 22px;
+}
+
+/* ------------------------------------------------------------ *\
+	Stats
+\* ------------------------------------------------------------ */
+
+.stats {
+	float: left;
+	width: 589px;
+	padding: 31px 33px 24px 15px;
+	border-left: 1px solid #39454d;
+}
+
+/* ------------------------------------------------------------ *\
+	Summary
+\* ------------------------------------------------------------ */
+
+.section__summary {
+	margin-bottom: 22px;
+}
+
+.section__summary__head {
+	margin-bottom: 22px;
+}
+
+.section__summary__body p {
+	margin-bottom: 9px;
+}
+
+/* ------------------------------------------------------------ *\
+	Sections
+\* ------------------------------------------------------------ */
+
+.section__leads,
+.section__application,
+.section__contact {
+	margin-bottom: 25px;
+}
+
+.section__leads__head,
+.section__contact__head,
+.section__business__head {
+	margin-bottom: 24px;
+}
+
+.section__leads__head:before,
+.section__application__head:before,
+.section__contact__head:before,
+.section__business__head:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #39464e;
+	margin-bottom: 21px;
+}
+
+.section__application__head:before {
+	margin-bottom: 13px;
+}
+
+.head-header {
+	float: left;
+	margin-top: 8px;
+}
+
+.head-actions {
+	float: right;
+	margin-bottom: 12px;
+}
+
+/* ------------------------------------------------------------ *\
+	Table
+\* ------------------------------------------------------------ */
+
+.col-size-1 {
+	width: 97px;
+}
+
+.col-size-2 {
+	width: 82px;
+}
+
+.col-size-3 {
+	width: 93px;
+}
+
+.col-size-4 {
+	width: 95px;
+}
+
+.col-size-5 {
+	width: 186px;
+}
+
+.col-size-6 {
+	width: 94px;
+}
+
+.col-size-7 {
+	width: 114px;
+}
+
+.col-size-8 {
+	width: 117px;
+}
+
+.col-size-9 {
+	width: 218px;
+}
+
+.col-size-10 {
+	width: 447px;
+}
+
+.table tr {
+	height: 45px;
+}
+
+.table tr:nth-child(even) {
+	background-color: #dfe5e7;
+}
+
+.table tr.table-head-row {
+	height: 56px;
+}
+
+.table table {
+	border-collapse: separate;
+	border-spacing: 0;
+	width: 100%; 	
+}
+
+.table th {
+	padding: 4px 0 0 20px;
+	background-color: #587a83;
+	color: #fff;
+	text-align: left;
+	border: 1px solid #3b4347;
+	border-left: none;		
+}
+
+.table th:first-child {
+	border-top-left-radius: 5px;
+	border-left: 1px solid #3b4347;
+}
+
+.table th:last-child {
+	border-top-right-radius: 5px;
+}
+
+.table td {
+	font-size: 12px;
+	border: 1px solid #3b4347;
+	padding-left: 20px;
+	border-top: none;
+	border-left: none;
+}
+
+.table td:first-child {
+	border-left: 1px solid #3b4347;	
+}
+
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer {
+	border-top: 1px solid #364247;
+	background: #fff;
+	padding: 18px 0px 20px 1px;
+}
+
+.footer-content {
+	font-size: 12px;
+}
+
+.footer-content a {
+	text-decoration: underline;
+	transition: .2s;
+}
+
+.footer-content a:hover {
+	text-decoration: none;	
+}

@@ -1,0 +1,130 @@
+.neighbourhood {
+	padding-bottom: 119px;
+}
+
+.neighbourhood h2 {
+	margin-bottom: 93px;
+}
+
+.neighbourhood .bike {
+	margin-bottom: 118px;
+}
+
+.neighbourhood .bike img {
+	float: left;
+	margin-right: 32px;
+}
+
+.neighbourhood .bike p {
+	float: left;
+}
+
+.neighbourhood .dinner img {
+	float: left;
+	margin-right: 32px;
+}
+
+.neighbourhood .dinner p {
+	float: left;
+}
+
+.neighbourhood .firepit {
+	margin-bottom: 118px;
+}
+
+.neighbourhood .firepit img {
+	float: left;
+	margin-right: 32px;
+}
+
+.neighbourhood .firepit p {
+	float: left;
+}
+
+.neighbourhood .veggies img {
+	float: left;
+	margin-right: 32px;
+}
+
+.neighbourhood .veggies p {
+	float: left;
+}
+
+.neighbourhood .chair {
+	margin-bottom: 118px;
+}
+
+.neighbourhood .chair img {
+	float: left;
+	margin-right: 32px;
+}
+
+.neighbourhood .chair p {
+	float: left;
+}
+
+.neighbourhood .weights img {
+	float: left;
+	margin-right: 32px;
+}
+
+.neighbourhood .weights p {
+	float: left;
+}
+
+@media (max-width: 1024px) {
+	.neighbourhood {
+		padding-bottom: 0;
+	}
+
+	.chair {
+		float: left;
+		margin-top: 118px;
+	}
+	.weights {
+		float: left;
+		margin-top: 118px;
+		margin-left: 275px;
+	}
+}
+
+@media (max-width: 768px) {
+	.neighbourhood .dinner p {
+		margin-bottom: 118px;
+	}
+
+	.neighbourhood .bike {
+		max-width: 300px;
+	}
+
+	.neighbourhood .bike img {
+		margin-bottom: 10px;
+	}
+	.neighbourhood .dinner {
+		max-width: 300px;
+	}
+	.neighbourhood .firepit {
+		max-width: 300px;
+	}
+
+	.neighbourhood .firepit img {
+		margin-bottom: 10px;
+	}
+	.neighbourhood .veggies {
+		max-width: 300px;
+	}
+	.neighbourhood .chair {
+		max-width: 300px;
+		float: none;
+	}
+
+	.neighbourhood .chair img {
+		margin-bottom: 10px;
+	}
+	.neighbourhood .weights {
+		max-width: 300px;
+		float: none;
+		margin-left: 0;
+		margin-bottom: 118px;
+	}
+}

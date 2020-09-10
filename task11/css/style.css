@@ -1,0 +1,547 @@
+/* ------------------------------------------------------------ *\
+	Reset
+\* ------------------------------------------------------------ */
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+*:before,
+*:after {
+	box-sizing: inherit; 
+}
+
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #252525;
+	font-weight: 400;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+h1 {
+	font-size: 72px;
+	color: #1fb25a;
+	font-weight: 700;
+	letter-spacing: 7px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 48px;
+	color: #1fb25a;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 21px;
+	letter-spacing: 2px;
+	color: #1fb25a;
+	font-weight: 700;	
+}
+
+h4 {
+	font-size: 18px;
+	letter-spacing: 3px;
+	color: #1fb25a;
+	font-weight: 700;	
+}
+
+h5 {
+	font-size: 14px;	
+	color: #1fb25a;
+	font-weight: 700;
+}
+
+h6 {
+	font-size: 10px;
+	color: #1fb25a;
+	font-weight: 700;	
+}
+
+/* ------------------------------------------------------------ *\
+	Clear
+\* ------------------------------------------------------------ */
+
+.clear {
+	position: relative;
+}
+
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ------------------------------------------------------------ *\
+	Shell
+\* ------------------------------------------------------------ */
+
+.shell {
+	width: 1045px;
+	margin: 0 auto;
+}
+
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header {
+	padding: 34px 0 126px 40px;
+}
+
+/* ------------------------------------------------------------ *\
+	Logo
+\* ------------------------------------------------------------ */
+
+.logo {
+	float: left;
+	margin-left: -120px;
+}
+
+/* ------------------------------------------------------------ *\
+	Nav
+\* ------------------------------------------------------------ */
+
+.nav {
+	float: right;
+	padding: 15px 32px 0 0;
+	margin-right: -94px;
+}
+
+.nav ul {
+	list-style: none; 
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li + li {
+	margin-left: 34px;
+}
+
+.nav a {
+	text-transform: uppercase;
+	font-size: 17px;
+	letter-spacing: 2px;
+	color: #252525;
+	font-weight: 700;
+	transition: .3s;
+}
+
+.nav a:hover {
+	color: #747272;
+}
+
+/* ------------------------------------------------------------ *\
+	Tel
+\* ------------------------------------------------------------ */
+
+.tel {
+	float: right;
+	padding: 15px 28px 0 0;
+}
+
+.tel a {
+	font-size: 18px;
+	color: #252525;
+	letter-spacing: 1px;
+	transition: .3s;
+}
+
+.tel a:hover {
+	text-decoration: underline; 
+}
+
+/* ------------------------------------------------------------ *\
+	Hero head
+\* ------------------------------------------------------------ */
+
+.hero__head {
+	margin-bottom: 18px;
+}
+
+/* ------------------------------------------------------------ *\
+	Hero head
+\* ------------------------------------------------------------ */
+
+.hero__heading {
+	float: left;
+	width: 50%;
+}
+
+.hero__heading .hero__title-secondary {
+	text-transform: uppercase;
+	color: #252525;
+	letter-spacing: 4px;
+	margin-bottom: 14px;
+}
+
+.hero__heading .hero__title {
+	width: 350px;
+}
+
+.hero__content {
+	width: 440px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	line-height: 26px;
+	margin-bottom: 40px;
+}
+
+/* ------------------------------------------------------------ *\
+	Btn
+\* ------------------------------------------------------------ */
+
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	height: 58px;
+	line-height: 58px;
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0 38px;
+	font-weight: 700; 
+	border-radius: 30px;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+	transition: .3s;
+}
+
+.btn:hover {
+	background-color: #5C5B5B;
+	color: #fff;
+}
+
+.btn-small {
+	padding: 0 28px;
+}
+
+/* ------------------------------------------------------------ *\
+	Hero content
+\* ------------------------------------------------------------ */
+
+.hero__content {
+	float: left;
+}
+
+/* ------------------------------------------------------------ *\
+	Quote
+\* ------------------------------------------------------------ */
+
+.hero__quote {
+	width: 451px;
+	height: 335px;
+	background-color: #ededed;
+	padding: 71px 28px 0 66px;
+	margin-top: 52px;
+}
+
+.hero__quote blockquote {
+	line-height: 28px;
+	word-spacing: 3px;
+	width: 350px;
+	font-weight: 700;
+	font-size: 19px;
+	margin-bottom: 19px;
+}
+
+.hero__entry {
+	font-weight: 700;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+	line-height: 26px;
+}
+
+/* ------------------------------------------------------------ *\
+	Img
+\* ------------------------------------------------------------ */
+
+.hero__image,
+.hero__image-2 {
+	float: right;
+	width: 50%;
+	height: 427px;
+	background-size: cover;
+	margin-top: 3px;
+}
+
+.hero__image-2 {
+	margin-top: 8px;
+}
+
+/* ------------------------------------------------------------ *\
+	Section rules
+\* ------------------------------------------------------------ */
+
+.section-rules {
+	padding: 107px 0 50px 0;
+} 
+
+.section-rules .section__title {
+	text-align: center;
+	letter-spacing: 3px;
+	margin-bottom: 69px;
+}
+
+.section-rules .section__body {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* ------------------------------------------------------------ *\
+	Rule
+\* ------------------------------------------------------------ */
+
+.rule {
+	max-width: 329px;
+	padding: 38px 14px 30px 33px;
+	height: 514px;
+	box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.4); 
+}
+
+.rule__image {
+	margin-bottom: 28px;
+}
+
+.rule__heading {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 22px;
+}
+
+.rule__content {
+	font-size: 19px;
+	color: #252525;
+	word-spacing: 5px;
+	line-height: 28px;
+}
+
+/* ------------------------------------------------------------ *\
+	Section services
+\* ------------------------------------------------------------ */
+
+.section-services {
+	padding: 94px 0 0 0;
+}
+
+.section-services .section__title {
+	text-align: center;
+	letter-spacing: 5px;
+	margin-bottom: 66px;
+}
+
+.section-services .section__body {
+	margin-bottom: 153px;
+}
+
+.section-services .section__body a {
+	position: absolute;
+	display: inline-block;
+	height: 82px;
+	line-height: 82px;
+	vertical-align: middle;
+	background-color: #fff;
+	color: #1fb259;
+	font-size: 21px;
+	font-weight: 700;
+	padding: 0 38px;
+	text-transform: uppercase;
+	margin: 20px;
+	letter-spacing: 3px;
+	transition: .3s;
+}
+
+.section-services .section__body a:hover {
+	background-color: #D5D3D3;
+	color: #198D47;
+}
+
+.section-services .section__foot {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* ------------------------------------------------------------ *\
+	Section body 
+\* ------------------------------------------------------------ */
+
+.section__body .section__top {
+	margin-bottom: 25px;
+}
+
+.section__body .section__bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* ------------------------------------------------------------ *\
+	Section foot
+\* ------------------------------------------------------------ */
+
+.section__foot .section__quote {
+	max-width: 625px;
+	vertical-align: middle;
+	padding-bottom: 15px;
+}
+
+.section__foot .section__quote blockquote{
+	font-size: 20px;
+	letter-spacing: 0px;
+	color: #252525;
+	line-height: 28px;
+	word-spacing: 3px;
+	margin-bottom: 16px;
+}
+
+.section__foot .section__left-arrow,
+.section__foot .section__right-arrow {
+	align-self: center;
+	margin: 0 58px 0 53px;
+}
+
+.section__foot .section__quote-entry {
+	font-size: 18px;
+	color: #252525;
+	font-weight: 700;
+	margin-left: 10px;
+	margin-left: 28px;
+	letter-spacing: 2px;
+}
+
+/* ------------------------------------------------------------ *\
+	Section dots
+\* ------------------------------------------------------------ */
+
+.section__dots {
+	padding: 74px 0 121px 0px;
+	text-align: center; 
+}
+
+.section__dots span {
+	width: 14px;
+	height: 14px;
+	background-color: #eaeaea;
+	border-radius: 14px; 
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.section__dots a:hover span {
+	background-color: #000;
+}
+
+.active {
+	background-color: #000 !important;
+}
+
+/* ------------------------------------------------------------ *\
+	Section job
+\* ------------------------------------------------------------ */
+
+.section-job {
+	text-align: center;
+	background-color: #d0f7db;
+	padding: 114px 0 122px 0;
+}
+
+.section-job .section__head {
+	max-width: 550px;
+	margin: 0 auto 53px;
+	letter-spacing: 3px;
+	word-spacing: 8px;
+}
+
+.section-job .section__head .section__title{
+	font-size: 50px;
+}
+
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer {
+	padding: 103px 0 55px 0;
+	background-color: #252525;
+}
+
+.footer__top {
+	display: flex;
+	justify-content: flex-start;
+	padding-bottom: 112px;
+}
+
+.footer__logo {
+	margin-right: 99px;
+}
+
+.footer__contact .footer__title {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 26px;
+}
+
+.footer__contact {
+	margin-right: 91px;
+}
+
+.footer__contact ul {
+	list-style: none;
+}
+
+.footer__contact li + li {
+	margin-top: 5px;
+}
+
+.footer__contact a {
+	letter-spacing: 1px;
+}
+
+.footer__contact a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.footer__social .footer__title {
+	margin-bottom: 31px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+}
+
+.footer__social a {
+	margin-right: 31px;
+}
+
+.footer__social img {
+	transition: .3s
+}
+
+.footer__social img:hover {
+	transform: scale(1.1);
+}
+
+.footer__bottom {
+	text-align: center;
+	font-size: 12px;
+	color: #aaa;
+	word-spacing: 2px;
+}

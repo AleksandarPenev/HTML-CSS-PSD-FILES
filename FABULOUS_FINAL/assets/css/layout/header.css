@@ -1,0 +1,237 @@
+#logo {
+	text-decoration: none;
+	display: inline-block;
+}
+
+#logo span {
+	display: block;
+}
+
+#logo span:first-child {
+	font-size: 36px;
+	color: #525f6b;
+	margin-bottom: 16px;
+	line-height: 27px;
+}
+
+
+#logo span:nth-child(2) {
+	font-size: 12px;
+	color: #999999;
+	line-height: 10px;
+}
+
+.header {
+	padding-top: 45px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.header .row:first-child {
+	margin-bottom: 45px;
+}
+
+.header nav	{
+	box-sizing: border-box;
+	border: 1px solid #dbdbdb;
+	height: 50px;
+
+	background: rgba(247,247,247,1);
+	background: -moz-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(246,246,246,1) 47%, rgba(238,238,238,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,247,247,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(238,238,238,1)));
+	background: -webkit-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(246,246,246,1) 47%, rgba(238,238,238,1) 100%);
+	background: -o-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(246,246,246,1) 47%, rgba(238,238,238,1) 100%);
+	background: -ms-linear-gradient(left, rgba(247,247,247,1) 0%, rgba(246,246,246,1) 47%, rgba(238,238,238,1) 100%);
+	background: linear-gradient(to right, rgba(247,247,247,1) 0%, rgba(246,246,246,1) 47%, rgba(238,238,238,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eeeeee', GradientType=1 );
+}
+
+.header nav ul {
+	height: 100%;
+}
+
+.header nav ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.header nav ul li {
+	float: left;
+	height: 100%;
+	display: table;
+	transition: 0.3s;
+}
+
+.header nav ul li a {
+	font-family: 'tinos';
+	color: #666666;
+	display: table-cell;
+	font-size: 12px;
+	vertical-align: middle;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 15px;
+}
+
+.header nav ul li a:hover {
+	background-color: #ff465355;
+	color: white;
+}
+
+.header nav ul li a:active {
+	background-color: #ff4653;
+	color: white;
+}
+
+.header nav ul li > ul {
+   	position: absolute;
+    display: inline-block;
+    background: red;
+    bottom: -100%;
+    display: none;
+}
+
+.header nav ul li:hover > ul {
+	display:  inline-block;
+}
+
+.canvas-menu {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+
+	left: -100%;
+	top: 0;
+	background-color: #3c444d;
+	z-index: 100;
+	transition: 0.3s;
+	padding: 60px 40px 40px 40px;
+}
+
+.canvas-menu.active {
+	left: 0%;
+}
+
+.canvas-menu ul {
+	width: 100%;
+}
+
+.canvas-menu ul li { 
+	line-height: 11px;
+	border-bottom: 1px solid #373432;
+}
+
+.canvas-menu ul li a {
+    display: inline-block;
+    font-family: 'tinos';
+    font-size: 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #999999;
+    padding: 11px 0 10px 0;
+ }
+
+ .canvas-menu ul li a:hover {
+ 	color: #C1C0C0;
+ }
+
+ .canvas-menu ul li.current a {
+ 	color: white;
+ }
+
+ .canvas-button {
+ 	width: 50px;
+ 	height: 40px;
+ 	
+ 	position: absolute;
+ 	left: 20px;
+ 	top: 20px;
+ 	cursor: pointer;
+ 	z-index: 100;
+ }
+
+
+.canvas-button span {
+	display: block;
+	height: 7px;
+	width: 100%;
+	background-color: #333;
+	border-radius: 100px;
+	position: absolute;
+}
+
+.canvas-button span:nth-child(1) {
+	top: 0;
+}
+
+ .canvas-button span:nth-child(2) {
+ 	left: 0;
+ 	top: 0;
+ 	right: 0;
+ 	bottom: 0;
+ 	margin: auto;
+}
+
+
+.canvas-button span:nth-child(3) {
+ 	bottom: 0;
+}
+
+.canvas-button_menu {
+	width: 50px;
+ 	height: 40px;
+ 	
+ 	position: absolute;
+ 	right: 40px;
+ 	top: 20px;
+ 	cursor: pointer;
+ 	z-index: 100;
+}
+
+.canvas-button_menu span {
+	display: block;
+	height: 7px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 100px;
+	position: absolute;
+}
+
+.canvas-button_menu span:nth-child(1) {
+	top: -2px;
+	transform: rotate(45deg);
+	transform-origin: 0 50%;
+	left: 7px;
+
+}
+
+ .canvas-button_menu span:nth-child(2) {
+ 	bottom: 0;
+ 	transform: rotate(-45deg);
+	transform-origin: 0 50%;
+	left: 7px;
+}
+
+/*Small*/
+@media only screen and (max-width: 767px) {
+	.header {
+		margin-bottom: 10px;
+		padding-top: 10px;
+		position: relative;
+		bottom: 60px;
+	}
+
+	.topbar {
+		position: relative;
+		top: 74px;
+	}
+
+	.header .row:first-child {
+		margin-bottom: 0px;
+	}
+
+	.logo_col {
+		text-align: center;
+	}
+}

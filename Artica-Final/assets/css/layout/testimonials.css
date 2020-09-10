@@ -1,0 +1,34 @@
+.testimonials {
+	padding: 64px 0 66px;
+	text-align: center;
+}
+
+.testimonials h2 {
+	font-size: 30px;
+	font-family: 'latoregular';
+	color: #3d506f;
+	margin-bottom: 37px;
+}
+
+.testimonials p {
+	font-size: 15px;
+	font-family: 'latoregular';
+	font-style: italic;
+	color: #7f90a5;
+	margin-bottom: 44px;
+}
+
+.testimonials .line {
+	height: 1px;
+	background-color: #7f90a5;
+	max-width: 571px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 45px;
+}
+
+.testimonials h3 {
+	font-size: 20px;
+	font-family: 'latoregular';
+	color: #3d506f;
+}

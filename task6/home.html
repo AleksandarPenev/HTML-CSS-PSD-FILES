@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Task 6</title>
+
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header clear">
+				<div class="shell">
+					<div class="logo">
+						<a href="#">
+							<img src="css/images/logo.png" alt="">
+						</a>
+					</div><!-- ./logo -->
+
+					<div class="caption">
+						<p>discover.give.<span>impact</span></p>
+					</div><!-- ./caption -->
+				</div><!-- /.shell -->
+			</header><!-- ./header -->
+
+			<div class="form">
+				<div class="shell">
+					<header class="form__head">
+						<h1>Set Up Your Account</h1>
+					</header><!-- /.form__head -->
+
+					<div class="form__body">
+						<form action="?" method="post">
+							<div class="form__section">
+								<div class="form__section-head">
+									<h4>Tell Us More About Yourself</h4>
+								</div><!-- /.form__section-head -->
+
+								<div class="form__section-body">
+									<div class="form__row">
+										<div class="form__col__labels">
+											<label class="form__label" for="fname lname">Your Full Name</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__controls">
+												<input type="text" class="field field-fname" id="fname" placeholder="First">
+											</div><!-- /.form__controls -->
+										</div><!-- /.form__col -->
+
+										<div class="form__col">
+											<div class="form__controls">
+												<input type="text" class="field field-lname" id="lname" placeholder="Last">
+											</div><!-- /.form__controls -->
+										</div><!-- /.form__col -->
+									</div><!-- /.form__row -->
+
+									<div class="form__row">
+										<div class="form__col__labels">
+											<label class="form__label" for="title">Your Title</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__row">
+												<div class="form__controls">
+													<div class="select">
+														<select name="select_title" id="select_title" class="select_field select_field-title">
+															<option value="1" selected>Select</option>
+
+															<option value="2">Mr.</option>
+
+															<option value="3">Ms.</option>
+
+															<option value="4">Mrs.</option>
+														</select>
+													</div><!-- /.select -->
+												</div><!-- /.form__controls -->
+											</div><!-- /.form__row -->
+										</div><!-- /.form__col -->
+									</div><!-- /.form__row -->
+
+									<div class="form__row">
+										<div class="form__col__labels">
+											<label for="number" class="form__label">Your Phone Number</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__controls">
+												<input type="text" class="field field_number" id="number" placeholder="012 - 345 - 6789">
+											</div><!-- /.form__controls -->
+										</div><!-- /.form__coll -->
+									</div><!-- /.form__row --> 
+
+									<div class="form__row">
+										<div class="form__col__labels">
+											<label for="email" class="form__label">Your Email</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__controls">
+												<input type="text" class="field field_email" id="email" placeholder="marco@polo.com">
+											</div><!-- /.form__controls -->
+										</div><!-- /.form__col -->
+									</div><!-- /.form__row --> 
+
+
+								</div><!-- /.form__section-body -->
+							</div><!-- /.form__section -->
+
+							<div class="form__section">
+								<div class="form__section-head form__section-head-nonprofit">
+									<h4>Tell Us More About Your Nonprofit</h4>
+								</div><!-- /.form__section-head -->
+
+								<div class="entry">
+									<p>This is for employees or authorized representatives of a nonprofit. Remember, only US-based 501(c)3 nonprofits are eligible to receive funds using giver.ly. Please claim your nonprofit from our robust list of over 1.5 million below by entering your EIN.</p>
+								</div><!-- /.entry -->
+
+								<div class="form__section-body">
+									<div class="form__row">
+										<div class="form__col__labels">
+											<label class="form__label" for="ein">EIN</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__controls">
+												<input type="text" class="field field_ein" id="ein" placeholder="Nonprofit EIN">
+											</div><!-- /.form__controls -->
+										</div><!-- /.form__col -->
+									</div><!-- /.form__row -->
+								</div><!-- /.form__section-body -->
+							</div><!-- /.form__section -->
+							
+							<div class="form__section">
+								<div class="form__section-head form__section-head-nonprofit-second">
+									<h4>Tell Us More About Your Nonprofit</h4>
+								</div><!-- /.form__section-head -->
+
+								<div class="form__section-body">
+									<div class="form__row">
+										<div class="form__col__labels">
+											<label class="form__label" for="nonprofit_name">Nonprofit Name</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__controls">
+												<input type="text" class="field field_nonprofit_name" id="nonprofit_name">
+											</div><!-- /.form__controls -->
+										</div><!-- /.form__col -->
+									</div><!-- /.form__row -->
+
+									<div class="form__row">
+										<div class="form__col__labels form__col__labels__address">
+											<label class="form__label" for="address city country state zip">Address</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__row">
+												<div class="form__controls">
+													<input type="text" class="field field_street" id="address" placeholder="Street">
+												</div><!-- /.form__controls -->
+											</div><!-- /.form__row -->
+
+											<div class="form__row">
+												<div class="form__col form__col__city">
+													<div class="form__controls">
+														<input type="text" class="field field_city" id="city" placeholder="City">
+													</div><!-- /.form__controls -->
+												</div><!-- /.form__col -->
+
+												<div class="form__col form__col__country">
+													<div class="form__controls">
+														<input type="text" class="field field_country" id="country" placeholder="United States">
+													</div><!-- /.form__controls -->
+												</div><!-- /.form__col -->
+											</div><!-- /.form__row -->
+
+											<div class="form__row">
+												<div class="form__col form__col__state">
+													<div class="form__controls">
+														<div class="select">
+															<select name="state" id="state" class="select_field select_field_state">
+																<option value="1" selected="">State</option>
+
+																<option value="2">New York</option>
+
+																<option value="3">Washington</option>
+
+																<option value="4">California</option>
+															</select>
+														</div><!-- /.select -->
+													</div><!-- /.form__controls -->
+												</div><!-- /.form__col -->
+
+												<div class="form__col form__col__zip">
+													<div class="form__controls">
+														<input type="text" class="field field_zip" id="zip" placeholder="Zip">
+													</div><!-- /.form__controls -->
+												</div><!-- /.form__col -->
+											</div><!-- /.form__row -->
+										</div><!-- /.form__col -->
+									</div><!-- /.form__row -->
+									
+									<div class="form__row">
+										<div class="form__col__labels">
+											<label class="form__label" for="select_category">Your Category</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__row">	
+												<div class="form__controls">
+													<div class="select">
+														<select name="select_category" id="select_category" class="select_field select_field_category">
+															<option value="1" selected>Select</option>
+
+															<option value="2">First Category</option>
+
+															<option value="3">Second Category</option>
+														</select>
+													</div><!-- /.select -->
+												</div><!-- /.form__controls -->
+											</div><!-- /.form__row -->
+										</div><!-- ./form__col -->								
+									</div><!-- /.form__row -->
+						
+									<div class="form__row">
+										<div class="form__col__labels">
+											<label class="form__label" for="website">Website</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__controls">
+												<input type="text" class="field field_website" id="website">
+											</div><!-- /.form__controls -->
+										</div><!-- /.form__col -->
+									</div><!-- /.form__row -->
+
+									<div class="form__row">
+										<div class="form__col__labels">
+											<label class="form__label" for="budget">Annual Budget</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__row">	
+												<div class="form__controls">
+													<div class="select">
+														<select name="budget" id="budget" class="select_field select_field_budget">
+															<option value="1" selected>Select</option>
+
+															<option value="2">First Budget</option>
+
+															<option value="3">Second Budget</option>
+														</select>
+													</div><!-- /.select -->
+												</div><!-- /.form__controls -->
+											</div><!-- /.form__row -->
+										</div><!-- ./form__col -->								
+									</div><!-- /.form__row -->
+									
+									<div class="form__row">
+										<div class="form__col__labels form__col__labels__about">
+											<label class="form__label" for="about">About</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col form__col__about">
+											<div class="form__controls">
+												<textarea class="field text_field" name="about" id="about" placeholder="A really short description of what your organization does."></textarea>
+											</div><!-- /.form__controls -->
+
+											<span class="form__hint form__hint__text">200 characters left</span>
+										</div><!-- /.form__col -->
+									</div><!-- /.form__row -->
+
+									<div class="form__row">
+										<div class="form__col__labels">
+											<label class="form__label" for="organization_phone">Organization Contact Phone</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__controls">
+												<input type="text" class="field field_organization_phone" id="organization_phone" placeholder="012 - 345 - 6789">
+
+												<span class="form__hint">(optional)</span>
+											</div><!-- /.form__controls -->
+										</div><!-- /.form__col -->
+									</div><!-- /.form__row -->
+
+									<div class="form__row">
+										<div class="form__col__labels">
+											<label class="form__label" for="organization_email">Organization Contact Email</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__controls">
+												<input type="text" class="field field_organization_email" id="organization_email" placeholder="marco@polo.com">
+												
+												<span class="form__hint">(optional)</span>
+											</div><!-- /.form__controls -->
+										</div><!-- /.form__col -->
+									</div><!-- /.form__row -->
+									
+									<div class="form__row">
+										<div class="form__col__labels">
+											<label class="form__label" for="administrator">Invite Administrator</label>
+										</div><!-- /.form__col -->
+										
+										<div class="form__col">
+											<div class="form__controls">
+												<input type="text" class="field field_administrator" id="administrator" placeholder="marco@polo.com">
+												
+												<span class="form__hint">(optional)</span>
+											</div><!-- /.form__controls -->
+										</div><!-- /.form__col -->
+									</div><!-- /.form__row -->
+
+									<div class="form__row">
+										<div class="form__controls">
+											<div class="checkbox">
+												<input type="checkbox" name="terms" id="terms" class="checkbox_field">
+
+												<label for="terms" class="form__label__terms">I have read and agree to the <a href="#">Terms & Conditions</a></label>
+											</div><!-- /.checkbox -->
+										</div><!-- /.form__controls -->
+									</div><!-- /.form__row -->					
+
+									<div class="form__actions">
+										<a href="#" class="btn btn--darkblue">Save</a>
+
+										<input type="submit" value="Submit" class="btn btn--blue">
+									</div><!-- /.form__actions -->
+								</div><!-- /.form__section-body -->
+							</div><!-- /.form__section -->
+						</form>
+					</div><!-- /.form__body -->
+				</div><!-- /.shell -->	
+			</div><!-- /.form -->
+
+			<footer class="footer">
+				<div class="entry">
+					<p>© 2013 Giverly LLC <span>&#183;</span> <a href="#">Questions & Suggestions?</a></p>
+				</div><!-- ./entry -->
+			</footer><!-- ./footer -->
+		</div><!-- ./wrapper -->
+	</body>
+</html>

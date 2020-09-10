@@ -1,0 +1,137 @@
+.how_it_works .services h2 {
+	text-align: left;
+	font-size: 40px;
+	color: #1f373d;
+	font-weight: bolder;
+	width: 100%;
+	height: 100%;
+	font-family: 'montserrat_semibold';
+	margin-bottom: 15px;
+}
+
+.how_it_works .services p {
+	font-size: 13px;
+	text-align: left;
+	font-family: 'montserrat_regular';
+	color: #1f373d;
+	width: 384px;
+	margin-bottom: 75px;
+	font-weight: bolder;
+	line-height: 30px;
+}
+
+.how_it_works .services img {
+	width: 520px;
+	height: 690px;
+	float: left;
+}
+
+.how_it_works .services .content h3 {
+	font-size: 25px;
+	color: #1f373d;
+	width: 20%;
+	height: 100%;
+	font-family: 'montserrat_semibold';
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 25px;
+	margin-left: 52px;
+}
+
+.how_it_works .services .content p {
+	font-size: 13px;
+	text-align: left;
+	font-family: 'montserrat_regular';
+	color: #1f373d;
+	width: 471px;
+	margin-bottom: 75px;
+	font-weight: bolder;
+	line-height: 30px;
+	margin-left: 54px;
+}
+
+
+/*Middle*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+ .shell {
+  width: 100%;
+}
+.how_it_works .services h2 {
+ text-align: center;
+}
+.how_it_works .services p {
+ margin: 0 auto 20px;
+ text-align: center;
+}
+.how_it_works .services img {
+ height: 100%;
+}
+.how_it_works .services .content p {
+ width: 80%;
+} 	
+}
+
+/*Small*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .shell {
+  	width: 100%;
+  	margin: 0 auto;
+  }
+
+  .how_it_works .services h2 {
+  	text-align: center;
+  }
+
+  .how_it_works .services p {
+  	margin: 0 auto;
+  	text-align: center;
+  	margin-bottom: 20px;
+  }
+
+  .how_it_works .services img {
+    margin: 0 auto 40px;
+    display: inherit;
+    float: none;
+  }
+
+  .how_it_works .services .content h3,
+  .how_it_works .services .content p {
+  	margin: 0 auto 20px;
+  }
+}
+
+/*Xsmall*/
+
+@media (max-width: 767px) {
+  .shell {
+  	width: 100%;
+  	margin: 0 auto;
+  }
+  .how_it_works .services h2 {
+  	text-align: center;
+  }
+  .how_it_works .services p {
+  	margin: 0 auto 20px;
+  	text-align: center;
+  	width: 100%;
+  }
+
+  .how_it_works .services img {
+  	width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .how_it_works .services .content h3 {
+  	width: 100%;
+  	margin: 0 auto;
+  }
+
+  .how_it_works .services .content p {
+  	margin: 0 auto 20px;
+    width: 100%;
+    text-align: center;
+  }
+}

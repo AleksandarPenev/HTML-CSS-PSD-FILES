@@ -1,0 +1,22 @@
+@import url('fonts.css');
+@import url('font-awesome.css');
+@import url('reset.css');
+@import url('bootstrap.css');
+@import url('general.css');
+@import url('elements.css');
+
+
+/*Plugins*/
+
+@import url('owl.carousel.css');
+
+/*Components*/
+@import url('components/carousel.css');
+
+/*Layout*/
+
+@import url('layout/topbar.css');
+@import url('layout/header.css');
+@import url('layout/main-carousel.css');
+@import url('layout/content.css');
+@import url('layout/footer.css');

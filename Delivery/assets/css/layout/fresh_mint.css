@@ -1,0 +1,69 @@
+.fresh_mint {
+	padding: 60px 0 64px;
+	background-color: #f8f8f7;
+	text-align: center;
+}
+
+.fresh_mint .meals {
+	margin-top: 64px;
+	text-align: left;
+}
+
+.fresh_mint .meals img {
+	float: left;
+	margin-right: 18px;
+}
+
+.fresh_mint .meals p {
+	font-size: 14px;
+	color: #5c5c5c;
+	margin-bottom: 45px;
+}
+
+.fresh_mint .ingredients {
+	margin-top: 64px;
+	text-align: left;
+}
+
+.fresh_mint .ingredients img {
+	float: left;
+	margin-right: 18px;
+}
+
+.fresh_mint .ingredients p {
+	font-size: 14px;
+	color: #5c5c5c;
+	margin-bottom: 45px;
+}
+
+.fresh_mint .chefs {
+	margin-top: 64px;
+	text-align: left;
+}
+
+.fresh_mint .chefs img {
+	float: left;
+	margin-right: 18px;
+}
+
+.fresh_mint .chefs p {
+	font-size: 14px;
+	color: #5c5c5c;
+	margin-bottom: 45px;
+}
+
+.fresh_mint .satisfaction {
+	margin-top: 64px;
+	text-align: left;
+}
+
+.fresh_mint .satisfaction img {
+	float: left;
+	margin-right: 18px;
+}
+
+.fresh_mint .satisfaction p {
+	font-size: 14px;
+	color: #5c5c5c;
+	margin-bottom: 45px;
+}

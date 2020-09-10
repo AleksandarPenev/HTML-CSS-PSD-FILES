@@ -1,0 +1,292 @@
+.adds {
+	padding: 90px 0;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.add img {
+	border: 1px solid black;
+}
+
+.location {
+	width: 335px;
+	height: 80px;
+	background: #ffcc01;
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 110px;
+}
+
+.location i {
+	font-size: 36px;
+	margin-top: 27px;
+	margin-left: 54px;
+	color: white;
+	display: block;
+	float: left;
+}
+
+.location p {
+	font-family: 'montserrat_semibold';
+	float: right;
+	margin-top: 30px;
+	margin-right: 55px;
+	font-size: 18px;
+}
+
+.location a {
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+}
+
+.location a:hover {
+	color: white;
+}
+
+
+.text h2 {
+	font-family: 'montserrat_semibold';
+	font-size: 25px;
+	margin-top: 15px;
+	margin-bottom: 37px;	
+	color: #324844;
+	text-align: left;
+}
+
+.text p {
+	font-family: 'montserrat_regular';
+	font-size: 13px;
+	color: #324844;
+	margin-bottom: 40px;
+	font-weight: bolder;
+	line-height: 30px;
+}
+
+.adds .row:first-child {
+	margin-bottom: 30px;
+}
+
+.text2 {
+	text-align: right;
+}
+
+.text2 h2 {
+	font-family: 'montserrat_semibold';
+	font-size: 25px;
+	margin-top: 80px;
+	margin-bottom: 37px;	
+	color: #324844;
+	text-align: right;
+}
+
+.text2 p {
+	font-family: 'montserrat_regular';
+	font-size: 13px;
+	color: #324844;
+	font-weight: bolder;
+	line-height: 30px;
+}
+
+.location_second {
+	width: 335px;
+	height: 80px;
+	background: #ffcc01;
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 260px;
+}
+
+.location_second i {
+	font-size: 36px;
+	margin-top: 27px;
+	margin-left: 54px;
+	color: white;
+	display: block;
+	float: left;
+}
+
+.location_second p {
+	font-family: 'montserrat_semibold';
+	float: right;
+	margin-top: 30px;
+	margin-right: 55px;
+	font-size: 18px;
+}
+
+.location_second a {
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+}
+
+.location_second a:hover {
+	color: white;
+}
+
+.adds .row:nth-child(2) {
+	margin-bottom: 90px;
+}
+
+.text3 h2 {
+	font-family: 'montserrat_semibold';
+	font-size: 25px;
+	margin-top: 30px;
+	margin-bottom: 27px;	
+	color: #324844;
+	text-align: left;
+}
+
+.text3 p {
+	font-family: 'montserrat_regular';
+	font-size: 13px;
+	color: #324844;
+	margin-bottom: 20px;
+	font-weight: bolder;
+	line-height: 30px;
+}
+
+.text3 a {
+	font-family: 'montserrat_semibold';
+	display: inline-block;
+	font-size: 18px;
+	color: white;
+	background: #1f373d;
+	padding: 30px 55px;
+	border: 1px solid black;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.text3 a:hover {
+	background-color: #050d0e; 
+}
+
+
+/*Middle*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.wrap {
+		width: 100%;
+	}
+
+	.adds .row:first-child {
+		margin-bottom: 45px;
+	}
+
+	.location_second {
+		margin-left: 120px;
+	}
+}
+
+/*Small*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.wrap {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.add {
+		text-align: center;
+	}
+
+	.location {
+		left: 0;
+		right: 0;
+		bottom: -40px;
+		margin: auto;
+	}
+	.text {
+		text-align: center;
+	}
+
+	.text h2 {
+		text-align: center;
+	}
+
+	.text p {
+		margin-bottom: 0;
+	}
+
+	.location_second {
+		left: 0;
+		right: 0;
+		bottom: -40px;
+		margin: auto;
+	}
+
+	.text2 {
+		text-align: center;
+	}
+
+	.text2 h2 {
+		text-align: center;
+		margin-top: 0;
+	}
+
+	.text2 p {
+		margin-bottom: 15px;
+	}
+
+	.text3 { 
+		text-align: center;
+	}
+
+	.text3 h2 {
+		text-align: center;
+	}
+}
+
+/*Xsmall*/
+
+@media (max-width: 767px) {
+	.wrap {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.add img {
+		width: 100%;
+	}
+	.location {
+		left: 0;
+		right: 0;
+		bottom: -40px;
+		margin: auto;
+	}
+	.text{
+		text-align: center;
+	}
+	.text h2 {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.text p {
+		margin-bottom: 0;
+	}
+
+	.text2 h2 {
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	.text2 p {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.location_second {
+		left: 0;
+		right: 0;
+		bottom: -40px;
+		margin: auto;
+	}
+
+	.text3 {
+		text-align: center;
+	}
+	.text3 h2 {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+}

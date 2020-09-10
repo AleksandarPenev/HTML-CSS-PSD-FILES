@@ -1,0 +1,26 @@
+body {
+	max-width: 1920px;
+	background: #ffffff;
+	font-family: 'montserrat_semibold', sans-serif;
+}
+
+header{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.wrap {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.shell {
+	max-width: 1140px;
+	position: relative;
+	margin: 0 auto;
+}
+
+footer {
+	background: #1f373d;
+	font-family: 'montserrat_semibold';
+}

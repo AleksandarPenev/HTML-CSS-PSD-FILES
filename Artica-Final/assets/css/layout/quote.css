@@ -1,0 +1,20 @@
+.quote {
+	background-color: #1c2639;
+	padding: 74px 0 65px;
+}
+
+.quote p {
+	font-size: 25px;
+	color: #ffffff;
+	font-family: 'latoregular';
+	text-align: center;
+	margin-bottom: 44px;
+}
+
+.quote h4 {
+	font-size: 15px;
+	color: #ffffff;
+	font-family: 'latoregular';
+	font-weight: 400;
+	text-align: center;
+}

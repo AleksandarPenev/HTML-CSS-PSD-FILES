@@ -1,0 +1,90 @@
+header .topbar {
+	padding: 20px 0 22px;
+}
+
+header .topbar .logo {
+	float: left;
+}
+
+header .topbar .topbar_top {
+	margin-top: 17px;
+	width: 800px;
+	float: right;
+}
+
+header .topbar .topbar_top #availability {
+	padding: 14px 23px;
+	background-color: #fdb71a;
+	text-decoration: none;
+	color: #fff;
+	transition: 0.3s;
+	float: right;
+}
+
+header .topbar .topbar_top #availability:hover {
+	background-color: #C8931C;
+}
+
+header .topbar .topbar_top #facebook {
+	font-size: 25px;
+	line-height: 21px;
+	color: #2e2a25;
+	float: right;
+	margin-right: 27px;
+	margin-top: 8px;
+}
+
+header .topbar .topbar_top #instagram {
+	font-size: 25px;
+	line-height: 21px;
+	color: #2e2a25;
+	margin-right: 25px;
+    margin-top: 8px;
+	float: right;
+}
+
+header .topbar nav {
+	float: right;
+	margin-top: 40px;
+}
+
+header .topbar nav ul a {
+	float: left;
+	margin-left: 50px;
+	font-size: 16px;
+	color: #2b2b2b;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+header .topbar nav ul a:nth-child(1) {
+	margin-left: 0px;
+}
+
+header .topbar nav ul li:hover {
+	color: #777575;
+}
+
+header .topbar nav ul #floorplans li {
+	position: relative;
+	transition: 0.3s;
+}
+
+header .topbar nav ul #floorplans li i {
+	margin-right: 5px;
+	color: #fdb71a;	
+}
+
+.drop_menu {
+	width: 200px;
+	background-color: #C8931C;
+	position: absolute;
+	border: 1px solid black;
+	display: none;
+	z-index: 100;
+	padding: 5px 10px 10px;
+}
+
+header .topbar nav ul #floorplans li:hover .drop_menu {
+	display: block;
+}

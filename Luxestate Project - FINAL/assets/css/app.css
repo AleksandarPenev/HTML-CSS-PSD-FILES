@@ -1,0 +1,17 @@
+@import url('fonts.css');
+@import url('font-awesome.css');
+@import url('reset.css');
+@import url('bootstrap.css');
+@import url('general.css');
+
+/*Sections*/
+@import url('layout/Homepage/navbar.css');
+@import url('layout/Homepage/header_middle.css');
+@import url('layout/Homepage/header_bottom.css');
+@import url('layout/appartments.css');
+@import url('layout/how_it_works/title.css');
+@import url('layout/how_it_works/boxes.css');
+@import url('layout/how_it_works/services.css');
+@import url('layout/agents.css');
+@import url('layout/adds.css');
+@import url('layout/footer.css');

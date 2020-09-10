@@ -1,0 +1,203 @@
+footer {
+	padding: 67px 0 38px;
+	background-color: #161f32;
+}
+
+footer .footer_top {
+	text-align: center;
+}
+
+footer .footer_top h2 {
+	font-size: 30px;
+	font-family: 'latoregular';
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+footer .footer_top h3 {
+	font-size: 20px;
+	font-family: 'latoregular';
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+footer .footer_top .line {
+	height: 1px;
+	background-color: #fff;
+	max-width: 571px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 33px;
+}
+
+footer .footer_top p {
+	font-size: 15px;
+	font-family: 'latoregular';
+	color: #fff;
+	max-width: 755px;
+	margin: 0 auto 57px;
+}
+
+footer .address {
+	margin: 0 auto 60px;
+	text-align: center;
+}
+
+footer .address .circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+	background-color: #fff;
+	margin: 0 auto 30px;
+	text-align: center;
+}
+
+footer .address .circle i {
+	font-size: 22px;
+	margin-top: 24px;
+	color: #161f32;
+}
+
+footer .address h3 {
+	font-size: 20px;
+	font-family: 'latoregular';
+	color: #fff;
+	margin-bottom: 23px;
+}
+
+footer .address p a {
+	font-size: 20px;
+	font-family: 'latoregular';
+	color: #fff;
+}
+
+footer .mail {
+	margin: 0 auto 60px;
+	text-align: center;
+}
+
+footer .mail .circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+	background-color: #fff;
+	margin: 0 auto 30px;
+	text-align: center;
+}
+
+footer .mail .circle i {
+	font-size: 22px;
+	margin-top: 24px;
+	color: #161f32;
+}
+
+footer .mail h3 {
+	font-size: 20px;
+	font-family: 'latoregular';
+	color: #fff;
+	margin-bottom: 23px;
+}
+
+footer .mail p a {
+	font-size: 20px;
+	font-family: 'latoregular';
+	color: #fff;
+}
+
+footer .phone {
+	margin: 0 auto 60px;
+	text-align: center;
+}
+
+footer .phone .circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+	background-color: #fff;
+	margin: 0 auto 30px;
+	text-align: center;
+}
+
+footer .phone .circle i {
+	font-size: 28px;
+	margin-top: 22px;
+	color: #161f32;
+}
+
+footer .phone h3 {
+	font-size: 20px;
+	font-family: 'latoregular';
+	color: #fff;
+	margin-bottom: 23px;
+}
+
+footer .phone p a {
+	font-size: 20px;
+	font-family: 'latoregular';
+	color: #fff;
+}
+
+footer form input {
+	padding: 27px 20px;
+	background-color: #151f31;
+	font-size: 15px;
+	font-family: 'latoregular';
+	font-style: italic;
+	border: 1px solid #fff;
+	color: #fff;
+	margin-bottom: 28px;
+	width: 100%;
+	outline: none;
+}
+
+footer .footer_bottom {
+	text-align: center;
+}
+
+footer form textarea {
+	padding: 20px;
+	background-color: #151f31;
+	font-size: 15px;
+	font-family: 'latoregular';
+	font-style: italic;
+	border: 1px solid #fff;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 32px;
+	outline: none;
+}
+
+footer #send_message {
+	padding: 25px 58px; 
+	background-color: #fff;
+	font-size: 20px;
+	font-family: 'latoregular';
+	color: #3d506f;
+	margin: 0 auto;	
+	text-decoration: none;
+	display: inline-block;
+	transition: 0.3s;
+}
+
+footer #send_message:hover {
+	background-color: #C9C7C7;
+	color: #2E3C53;
+}
+
+footer .copyright {
+	padding: 68px 0 0;
+	text-align: center;
+}
+
+footer .copyright h3 {
+	font-size: 37px;
+	font-family: 'Molle';
+	color: #fff;
+	margin-bottom: 24px;
+}
+
+footer .copyright p {
+	font-size: 11px;
+	font-family: 'latoregular';
+	color: #fff;
+}

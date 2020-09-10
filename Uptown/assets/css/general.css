@@ -1,0 +1,28 @@
+.wrap {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clear {
+	position: relative;
+}
+
+.clear:after {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+h2 {
+	font-size: 35px;
+	color: #2e2a25;
+}
+
+h2:after {
+	width: 40px;
+	height: 7px;
+	background: #fdb71a;
+	margin-top: 20px;
+	display: block;
+	content: '';
+}

@@ -1,0 +1,363 @@
+/* ------------------------------------------------------------ *\
+	Reset
+\* ------------------------------------------------------------ */
+
+* { 
+	padding: 0; 
+	margin: 0; 
+	outline: 0; 
+	box-sizing: border-box; 
+}
+
+*:before,
+*:after { 
+	box-sizing: inherit; 
+}
+
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+	color: #1f1f24;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+h1 {
+	font-size: 19px;
+}
+
+h2 {
+	font-size: 19px;
+}
+
+h3 {
+	font-size: 16px;	
+}
+
+h4 {
+	font-size: 14px;	
+}
+
+h5 {
+	font-size: 12px;	
+}
+
+h6 {
+	font-size: 10px;	
+}
+
+/* ------------------------------------------------------------ *\
+	Clear
+\* ------------------------------------------------------------ */
+
+.clear {
+	position: relative;
+}
+
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ------------------------------------------------------------ *\
+	Shell
+\* ------------------------------------------------------------ */
+
+.shell {
+	width: 980px;
+	margin: 0 auto;
+}
+
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header {
+	padding: 87px 0 83px 0;
+	text-align: center;
+	background-color: #979797;
+}
+
+.header span {
+	font-size: 20px;
+	line-height: 22px;
+	color: #ffffff;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* ------------------------------------------------------------ *\
+	Section table
+\* ------------------------------------------------------------ */
+
+.section__table {
+	padding: 70px 52px 55px 47px;
+}
+
+.section__table__head {
+	padding-left: 56px; 
+	margin-bottom: 19px;
+}
+
+.section__table__body {
+	padding: 0px 45px 0 33px;
+}
+
+/* ------------------------------------------------------------ *\
+	Table
+\* ------------------------------------------------------------ */
+
+.table {
+	margin: 0 0 23px 21px; 
+}
+
+.table table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table col {
+	width: 108px;
+}
+
+.table col:first-child {
+	width: 223px;
+}
+
+.table tr {
+	height: 38px;
+}
+
+.table th:first-child {
+	padding-left: 21px;
+	text-align: left;
+}
+
+.table td:first-child {
+	padding-left: 21px;
+	text-align: left;
+}
+
+.table tr:nth-child(even) td {
+	background-color: #f6f4f4;
+}
+
+.table thead th {
+	background: -webkit-linear-gradient(top, #fefefe 0%,#cbcbcb 100%);
+	background: linear-gradient(to bottom, #fefefe 0%,#cbcbcb 100%);
+}
+
+.table th {
+	font-size: 11px;
+	text-transform: uppercase;
+	border: 1px solid #979797;
+	font-weight: 900;
+	padding-top: 4px;
+}
+
+.table td {
+	font-size: 14px;
+	border: 1px solid #979797;
+	font-weight: 900;	
+	text-align: center;
+	padding-top: 4px;
+}
+
+.table th:nth-child(5) {
+	background: #77ae32;
+	color: #fff;
+}
+
+.table tr td:nth-child(5) {
+	background-color: #d6e6c2;
+}
+
+.table th:last-child {
+	padding: 0 14px;
+	line-height: 11px;
+}
+
+/* ------------------------------------------------------------ *\
+	Section table buttons
+\* ------------------------------------------------------------ */
+
+.section__table__btns {
+	position: relative;
+	margin-bottom: 66px;
+}
+
+.btn__list {
+	list-style: none;
+	position: absolute;
+	right: 109px;
+}
+
+.btn__list li {
+	float: left;
+}
+
+.btn__list a {
+	display: inline-block;
+	vertical-align: middle;
+	height: 44px;
+	line-height: 42px;
+	border: 1px solid #c2c1c1;
+	background: -webkit-linear-gradient(top, #fefefe 0%,#cbcbcb 100%);
+	background: linear-gradient(to bottom, #fefefe 0%,#cbcbcb 100%);
+	padding: 0 18px;
+	font-size: 11px;
+	color: #000;   
+	text-transform: uppercase;
+	font-weight: 900;
+	transition: .2s;
+}
+
+.btn__list a:hover { 
+	color: #fff;
+	background: #67972c;
+	border: 1px solid #6b9b2d;
+}
+
+.btn__list .first_btn {
+	border-radius: 5px 0 0 5px;
+}
+
+.btn__list .current_plan {
+	padding: 0 15px;
+}
+
+.btn__list .last_btn {
+	border-radius: 0 5px 5px 0;
+	padding: 0 29px;
+}
+
+.btn__list a.active {
+	color: #fff;
+	background: #67972c;
+	border: 1px solid #6b9b2d;	
+}
+
+/* ------------------------------------------------------------ *\
+	Section billing
+\* ------------------------------------------------------------ */
+
+.section__billing {
+	padding-left: 106px;
+	margin-bottom: 32px;
+}
+
+.section__billing__head {
+	margin-bottom: 6px;
+}
+
+.section__billing__head:before {
+	content: '';
+	display: block;
+	width: 90%;
+	height: 1px;
+	background-color: #d7d9d7;
+	margin-bottom: 18px;
+}
+
+.section__billing__body:after {
+	content: '';
+	display: block;
+	width: 90%;
+	height: 1px;
+	background-color: #d7d9d7;
+	margin-top: 37px;
+}
+
+.section__billing__body .content {
+	width: 360px;
+	font-size: 13px;
+	line-height: 1.7;
+	font-weight: 900;
+	margin-bottom: 11px;
+}
+
+.section__billing__foot {
+	padding-top: 7px;
+}
+
+.section__billing__foot span {
+	font-size: 14px;
+	font-weight: 900;
+	margin-left: 12px;
+	vertical-align: top;
+	word-spacing: 1px;
+}
+
+.section__billing__foot a {
+	font-size: 13px;
+	text-decoration: underline;
+	color: #66952b;
+	text-decoration-color: #66952b;
+	font-weight: 900;
+	vertical-align: top; 
+	transition: .2s;
+}
+
+.section__billing__foot a:hover {
+	color: #486720;
+	text-decoration: none;
+}
+
+/* ------------------------------------------------------------ *\
+	Delete account button
+\* ------------------------------------------------------------ */
+
+.delete_account {
+	padding-bottom: 176px;
+}
+
+.delete_btn {
+	display: inline-block;
+	vertical-align: middle;
+	height: 44px;
+	line-height: 42px;
+	background-color: #bd3533;
+	color: #fff;
+	padding: 0 30px 0 28px;
+	border-radius: 5px;
+	font-size: 11px;
+	letter-spacing: 2px;
+	font-weight: 900;
+	text-transform: uppercase;
+	border: 1px solid #aa4031;
+	margin-left: 52px;
+	transition: .3s; 
+}
+
+.delete_btn:hover {
+	background-color: #F04542;
+	color: #fff;
+}
+
+/* ------------------------------------------------------------ *\
+	Delete account button
+\* ------------------------------------------------------------ */
+
+.footer {
+	padding: 87px 0 84px 0;
+	text-align: center;
+	background-color: #979797;
+}
+
+.footer span {
+	font-size: 20px;
+	line-height: 22px;
+	color: #ffffff;
+	font-family: 'Trebuchet MS', sans-serif;
+}

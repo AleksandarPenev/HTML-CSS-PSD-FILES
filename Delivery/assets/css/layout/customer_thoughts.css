@@ -1,0 +1,40 @@
+.customers_thoughts {
+	padding: 61px 0 60px;
+	text-align: center;
+}
+
+.customers_thoughts h2 {
+	margin-bottom: 61px;
+}
+
+.customers_thoughts .Maurico img {
+	float: left;
+	margin-right: 10px;
+}
+
+.customers_thoughts .Maurico .txt {
+	padding-top: 15px;
+	text-align: left;
+}
+
+.customers_thoughts .Maurico .txt .second {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #6b6b6b;
+}
+
+.customers_thoughts .Stephanie img {
+	float: left;
+	margin-right: 10px;
+}
+
+.customers_thoughts .Stephanie .txt {
+	padding-top: 15px;
+	text-align: left;
+}
+
+.customers_thoughts .Stephanie .txt .second {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #6b6b6b;
+}

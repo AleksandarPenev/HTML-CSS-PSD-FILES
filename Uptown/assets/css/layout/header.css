@@ -1,0 +1,42 @@
+header .header {
+	padding-bottom: 119px;
+}
+
+header .header .slider_wrapper .item1 {
+	background: url(../../img/IMG1.png);
+	background-size: cover;
+	height: 544px;
+	position: relative;
+}
+
+header .header .slider_wrapper .item2 {
+	background: url(../../img/IMG2.png);
+	background-size: cover;
+	height: 544px;
+	position: relative;
+}
+
+header .header .slider_wrapper .item3 {
+	background: url(../../img/IMG3.png);
+	background-size: cover;
+	height: 544px;
+	position: relative;
+}
+
+header .header .slider_wrapper .item1 h1,
+header .header .slider_wrapper .item2 h1,
+header .header .slider_wrapper .item3 h1 {
+	font-size: 46px;
+	color: #fff;
+	max-width: 798px;
+	width: 70%;
+	height: 24px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+}
+

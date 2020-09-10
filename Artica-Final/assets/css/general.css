@@ -1,0 +1,9 @@
+body {
+	overflow-x: hidden;
+}
+
+.wrap {
+	max-width: 1170px;
+	margin: 0 auto;
+	width: 100%
+}

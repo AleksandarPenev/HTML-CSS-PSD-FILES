@@ -1,0 +1,1171 @@
+/* ------------------------------------------------------------ *\
+	Reset
+\* ------------------------------------------------------------ */
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+*:before,
+*:after { 
+	box-sizing: inherit;
+}
+
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+body {
+	font-family: 'Roboto', 'Arial',  sans-serif;
+	font-size: 16px;
+	color: #585b5e;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #686767;
+}
+
+h1 {
+	font-weight: 200;
+	font-size: 61px;
+	letter-spacing: -1px;
+	color: #1a1a1a;
+}
+
+h2 {
+	font-size: 33px;
+	letter-spacing: -1px;
+	color: #000;
+	font-weight: 300;
+	font-style: italic;
+	font-family: 'Raleway'. sans-serif;
+}
+
+h3 {
+	font-size: 32px;
+	color: #2c2c33;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;	
+}
+
+h4 {
+	font-size: 30px;
+	letter-spacing: -2px;
+	color: #000;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;	
+}
+
+h5 {
+	font-size: 16px;
+	color: #000;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+}
+
+h6 {
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #fff;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* ------------------------------------------------------------ *\
+	Clear
+\* ------------------------------------------------------------ */
+
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ------------------------------------------------------------ *\
+	Shell
+\* ------------------------------------------------------------ */
+
+.shell {
+	width: 1386px;
+	margin: 0 auto;
+}
+
+/* ------------------------------------------------------------ *\
+	Header 
+\* ------------------------------------------------------------ */
+
+.header {
+	position: relative;
+}
+
+/* ------------------------------------------------------------ *\
+	Header topbar
+\* ------------------------------------------------------------ */
+
+.header__topbar {
+	padding: 27px 30px 23px 0;
+	background-color: #000;
+}
+
+.header__topbar .header__entry {
+	float: right;
+	margin-right: 42px;
+	color: #fff;
+	font-size: 15px;
+	word-spacing: 1px;
+}
+
+.header__topbar .header__entry span {
+	margin-left: 11px;
+}
+
+/* ------------------------------------------------------------ *\
+	Social
+\* ------------------------------------------------------------ */
+
+.social {
+	float: right;
+}
+
+.social .social__facebook, 
+.social .social__twitter, 
+.social .social__linkedin {
+	float: left;
+	margin-left: 17px;
+	font-size: 17px;
+}
+
+.social .social__facebook, 
+.social .social__twitter {
+	border-right: 1px solid #626262;
+	padding-right: 17px;
+}
+
+.social a {
+	color: #fff;
+	transition: .3s;
+}
+
+.social a:hover {
+	color: #C9C8C8;
+}
+
+/* ------------------------------------------------------------ *\
+	Tel
+\* ------------------------------------------------------------ */
+
+.tel {
+	float: right;
+	font-size: 15px;
+	color: #fff;
+	margin-right: 60px;
+	transition: .3s;
+}
+
+.tel:hover {
+	color: #C9C8C8;
+	text-decoration: underline;
+}
+
+/* ------------------------------------------------------------ *\
+	Header content
+\* ------------------------------------------------------------ */
+
+.header__content {
+	height: 752px;
+	border-bottom: 4px solid #9fb73b;
+}
+
+/* ------------------------------------------------------------ *\
+	Left side
+\* ------------------------------------------------------------ */
+
+.header__main {
+	float: left;
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+
+/* ------------------------------------------------------------ *\
+	Title
+\* ------------------------------------------------------------ */
+
+.header__main .header__head {
+	width: 455px;
+	text-align: center;
+	position: absolute;
+	right: 219px;
+	bottom: 254px;
+	z-index: 1;
+}
+
+.header__main .header__head .header__title-secondary {
+	margin-bottom: 10px;
+}
+
+.header__main .header__head .header__title {
+	text-transform: uppercase;
+	line-height: 65px;
+}
+
+.header__main .header__head .header__title strong {
+	font-family: 'Raleway', sans-serif;	
+}
+
+.header__main .header__head .header__title span {
+	color: #9fb73b;
+	font-weight: 700;	
+	font-family: 'Raleway', sans-serif;	
+}
+
+/* ------------------------------------------------------------ *\
+	Red stickers
+\* ------------------------------------------------------------ */
+
+.header__red-stickers {
+	position: absolute;
+	top: 131px;
+	left: -19px;
+}
+
+/* ------------------------------------------------------------ *\
+	Orange stickers
+\* ------------------------------------------------------------ */
+
+.header__orange-stickers {
+	position: absolute;
+	bottom: -82px;
+	left: 143px;
+	z-index: -1;
+}
+
+/* ------------------------------------------------------------ *\
+	White stickers
+\* ------------------------------------------------------------ */
+
+.header__white-stickers {
+	position: absolute;
+	top: 110px;
+	right: -41px;
+	z-index: -1;
+}
+
+/* ------------------------------------------------------------ *\
+	Gold stickers
+\* ------------------------------------------------------------ */
+
+.header__gold-stickers {
+	position: absolute;
+	bottom: -69px;
+	right: -228px;
+	z-index: -1;
+}
+
+/* ------------------------------------------------------------ *\
+	Right side
+\* ------------------------------------------------------------ */
+
+.header__blue {
+	float: right;
+	position: relative;
+	background-color: #115068;
+	height: 100%;
+	width: 50%;
+	overflow: hidden;
+}
+
+.header__blue .header__quote {
+	position: absolute;
+	top: 68px;
+	bottom: 0;
+	left: 68px;
+	margin: auto;
+	width: 153px;
+	height: 153px;
+	border: 3px solid #9fb73b;
+	border-radius: 50%;
+	padding-top: 20px;
+	padding-top: 45px;
+	line-height: 33px;
+}
+
+.header__blue .header__quote a {
+	display: inline-block;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 29px;
+	color: #fff;
+	font-weight: 500;
+	transition: .3s;	
+}
+
+.header__blue .header__quote a:hover {
+	color: #C9C8C8;
+}
+
+.header__blue .header__quote img {
+	position: absolute;
+	right: -32px;
+	top: 62px;
+}
+
+.header__blue .header__img {
+	position: absolute;
+	bottom: -4px;
+	right: -12px;
+}
+
+/* ------------------------------------------------------------ *\
+	Navbar
+\* ------------------------------------------------------------ */
+
+.header__navbar {
+	position: absolute;
+	padding: 15px 23px 17px 334px;
+	background-color: rgba(98, 98, 98, 0.1);
+	width: 100%; 
+}
+
+/* ------------------------------------------------------------ *\
+	Nav
+\* ------------------------------------------------------------ */
+
+.nav {
+	float: left;
+	padding-top: 20px;
+}
+
+.nav ul {
+	list-style: none;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li + li {
+	margin-left: 50px;
+}
+
+.nav a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+/* ------------------------------------------------------------ *\
+	Navbar actions
+\* ------------------------------------------------------------ */
+
+.header__actions {
+	float: right;
+}
+
+.header__actions .header__docs {
+	display: inline-block;
+	vertical-align: middle;
+	height: 66px;
+	line-height: 66px;
+	background-color: #007f9d;
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 0 25px;
+	letter-spacing: 1px;
+	transition: .3s;
+}
+
+.header__actions .header__docs:hover {
+	background-color: #036278;
+	color: #fff;
+}
+
+.header__actions .header__brochures {
+	display: inline-block;
+	vertical-align: middle;
+	height: 66px;
+	line-height: 66px;
+	border: 2px solid #fff;
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 0 27px;
+	letter-spacing: 1px;
+	background-color: transparent;
+	transition: .3s;
+	margin-left: 5px;
+}
+
+.header__actions .header__brochures:hover {
+	background-color: #0D3849;
+	color: #fff;
+}
+
+/* ------------------------------------------------------------ *\
+	Graphic design logo
+\* ------------------------------------------------------------ */
+
+.graphic-logo {
+	float: right;
+	margin: 6px 124px 0 0;
+}
+
+.logo-container {
+	display: inline-block;
+	position: relative; 
+	width: 53px;
+	height: 53px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin-right: 9px;
+}
+
+.logo-container img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-radius: 50%;
+}
+
+.graphic-logo .entry {
+	display: inline-block;
+	color: #fff;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	font-size: 15px;
+	margin-top: 15px;
+	vertical-align: top;
+}
+
+/* ------------------------------------------------------------ *\
+	Logo
+\* ------------------------------------------------------------ */
+
+.logo {
+	position: absolute;
+	top: 16px;
+	left: 42px;
+	width: 142px;	
+	height: 142px;
+	border: 2px solid #11adea;
+	border-radius: 50%;
+	background-color: #000;
+}
+
+.logo img {
+	margin-left: -29px;
+	margin-top: 3px;
+}
+
+/* ------------------------------------------------------------ *\
+	Section services
+\* ------------------------------------------------------------ */
+
+.section__services {
+	background-color: #f1f1f1;
+}
+
+/* ------------------------------------------------------------ *\
+	Service
+\* ------------------------------------------------------------ */
+
+.service {
+	float: left;
+	padding: 57px 0 0 78px;
+}
+
+.service-first {
+	float: left;
+	padding: 56px 0px 63px 58px;
+	background-color: #e8e8e8;
+	width: 600px;
+	background-color: 
+}
+
+.service img,
+.service-first img {
+	margin: 18px 33px 0 0;	
+}
+
+.service__content {
+	vertical-align: top;
+}
+
+.service__content .service__title {
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #231f20;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.service__content,
+.service__content .service__entry,
+.service__entry--second {
+	display: inline-block;
+}
+
+.service__content .service__entry {
+	width: 181px;
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 25px;
+	color: #474949;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 11px;
+}
+
+.service--custom {
+	padding: 57px 0 0 102px;
+}
+
+.service--custom:last-child {
+	margin-left: -11px;
+}
+
+.service--custom:last-child img {
+	margin-right: 17px;
+}
+
+.service--custom img {
+	margin: 18px 25px 0 0px;
+}
+
+.service--custom h6 {
+	margin-top: 33px;
+	font-size: 15px;
+}
+
+/* ------------------------------------------------------------ *\
+	Services footer
+\* ------------------------------------------------------------ */
+
+.services__footer {
+	padding: 27px 0 30px 0;
+	text-align: center;
+	background-color: #007f9d;
+	font-size: 16px;
+	color: #fff;	
+	font-weight: 100;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------------------------------------------------ *\
+	Section intro
+\* ------------------------------------------------------------ */
+
+.section-intro {
+	text-align: center;
+	padding: 100px 0 106px 0;
+}
+
+.section-intro .section__title--secondary {
+	letter-spacing: 0px;
+	margin-bottom: 51px;
+}
+
+.section-intro .section__title {
+	font-size: 25px;
+	color: #000;
+	font-weight: 500;
+	font-style: italic;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0px;
+	word-spacing: -2px;
+	margin-bottom: 38px;
+}
+
+.section-intro .section__title span {
+	color: #115067;
+	font-weight: 500;
+}
+
+.intro__content {
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #585b5e;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	line-height: 28px;
+}
+
+/* ------------------------------------------------------------ *\
+	Section center
+\* ------------------------------------------------------------ */
+
+.section-center {
+	background-color: #ebeded;
+	padding: 87px 0 90px 0;
+}
+
+.section-center .section__content {
+	float: left;
+	max-width: 595px;
+}
+
+.section-center .section__image {
+	margin: 60px 0 13px 0; 
+}
+
+.section-center .section__head {
+	max-width: 360px;
+	line-height: 44px;
+	margin-bottom: 49px;
+}
+
+.section-center .section__entry {
+	line-height: 28px;
+}
+
+.section-center .section__entry p {
+	margin-bottom: 28px;
+}
+
+.section-center .section__clients {
+	max-width: 594px;
+	font-size: 0;
+	float: right;
+	position: relative;
+}
+
+.section-center .office-text,
+.section-center .laptop-text {
+	position: absolute;
+}
+
+.section-center .office-text {
+	width: 370px;
+	font-size: 18px; 
+	text-align: center;
+	top: 184px;
+	left: 136px;
+	letter-spacing: 0px;
+	word-spacing: 2px;
+	line-height: 26px;
+}
+
+.section-center .office-text span {
+	color: #007f9d;
+	font-weight: 700;
+}
+
+.section-center .laptop-text {
+	font-size: 16px;
+	letter-spacing: 0px;
+	color: #fff;
+	font-weight: 400;
+	width: 225px;
+	text-align: right;
+	bottom: 128px;
+	right: 10px;
+	line-height: 22px;
+}
+
+/* ------------------------------------------------------------ *\
+	Section about
+\* ------------------------------------------------------------ */
+
+.section-about {
+	background-color: #007f9d;
+	border-bottom: 4px solid #9fb73b;
+}
+
+.section-about .section__image {
+	width: 1077px;
+	height: 530px;	
+	background-size: cover;
+	float: left;
+}
+
+.section-about .section__content {
+	float: right;
+	width: 826px;
+	padding: 97px 0 0 111px;
+	color: #fff;
+}
+
+.section-about .section__title {
+	width: 400px;
+	line-height: 44px;
+	margin-bottom: 46px;
+	color: #fff;	
+}
+
+.section-about .section__entry {
+	width: 430px;
+	line-height: 28px;
+	margin-bottom: 37px;
+}
+
+.section-about .section__addition {
+	line-height: 28px;
+}
+
+/* ------------------------------------------------------------ *\
+	Section products
+\* ------------------------------------------------------------ */
+
+.section-products {
+	padding: 133px 0 135px 0;
+}
+
+.section-products .section__content {
+	float: left;	
+}
+
+.section-products .section__head {
+	max-width: 460px;
+	line-height: 43px;
+	margin: 14px 0 41px 0;
+}
+
+.section-products .section__entry {
+	max-width: 600px;
+	line-height: 28px;
+	margin-bottom: 31px;
+}
+
+.section-products .section__entry span {
+	font-size: 16px;
+	color: #343451;
+	font-weight: 400;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+}
+
+.section-products .products__head {
+	font-size: 16px;
+	color: #343451;
+	font-weight: 600;
+	word-spacing: -2px;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 59px;
+}
+
+.section-products .products__body {
+	margin-bottom: 65px;
+}
+
+.section-products .products__body span {
+	margin: 0 16px;
+}
+
+.section-products .products-list {
+	max-width: 200px;
+	list-style: none;
+}
+
+.section-products .products-list li + li {
+	margin-top: 10px;
+}
+
+.section-products .products-list a {
+	color: #585b5e;
+}
+
+.section-products .products-list a:hover {
+	color: #28292A;	
+}
+
+.section-products .products-list img {
+	vertical-align: middle;
+}
+
+.section-products .section__image {
+	float: right;
+	box-shadow: 0px 0px 10px 0px rgba(138,138,138,1);
+	max-width: 598px;
+}
+
+.section__top-images {
+	font-size: 0;
+}
+
+.section__top-images img {
+	vertical-align: top;
+}
+
+.section__top-images img:nth-child(3) {
+	margin-top: -101px;
+}
+
+/* ------------------------------------------------------------ *\
+	Section quote
+\* ------------------------------------------------------------ */
+
+.section-quote {
+	background-color: #007f9d;
+	text-align: center;
+	padding: 60px 0 54px 0;
+}
+
+.section-quote .section__content {
+	max-width: 1000px;
+	margin: 0 auto;	
+	font-size: 18px;
+	line-height: 33px;
+	color: #fff;
+	font-weight: 100;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* ------------------------------------------------------------ *\
+	Section provider
+\* ------------------------------------------------------------ */
+
+.section-provider {
+	background-color: #f1f1f1;
+	padding: 129px 0 131px 0;
+	text-align: center;
+}
+
+.section-provider .section__head {
+	max-width: 720px;
+	margin: 0 auto 43px;
+	line-height: 43px;
+}
+
+.section-provider .section__body {
+	max-width: 930px;
+	margin: 0 auto;
+	line-height: 28px;
+}
+
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer {
+	border-top: 3px solid #9fb73b;
+}
+
+.footer__left {
+	width: 50%;
+	float: left;
+	padding: 58px 100px 80px 75px;
+}
+
+.footer__right {
+	width: 50%;
+	float: right;
+	background-image: url(images/map.png);
+	background-size: cover;
+	text-align: center;
+	padding-bottom: 47px;
+}
+
+/* ------------------------------------------------------------ *\
+	Logos
+\* ------------------------------------------------------------ */
+
+.footer__logos {
+	margin-bottom: 44px;
+}
+
+.footer__logo {
+	float: left;
+}
+
+.footer__graphic-logo {
+	float: right;
+	margin: 24px 57px 0 0;
+}
+
+/* ------------------------------------------------------------ *\
+	Labeltech
+\* ------------------------------------------------------------ */
+
+.footer__labeltech {
+	float: left;
+	margin-left: 66px
+}
+
+.footer__labeltech .footer__title {
+	margin-bottom: 16px;
+	font-weight: 700;
+}
+
+.address {
+	font-size: 15px;
+	color: #606060;
+	font-weight: 400;
+	line-height: 21px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 24px;
+}
+
+.footer__tel {
+	font-size: 15px;
+	color: #606060;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+
+.footer__tel:hover {
+	color: #000;
+}
+
+/* ------------------------------------------------------------ *\
+	Hours
+\* ------------------------------------------------------------ */
+
+.footer__hours {
+	float: left;
+	margin-left: 57px;
+}
+
+.footer__hours .footer__title {
+	margin-bottom: 16px;
+	font-weight: 700;
+}
+
+.footer__hours ul {
+	list-style: none;
+}
+
+.footer__hours li {
+	font-size: 15px;
+	color: #606060;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 4px;
+}
+
+/* ------------------------------------------------------------ *\
+	Graphic designs
+\* ------------------------------------------------------------ */
+
+.footer__graphic-designs {
+	float: left;
+	margin-left: 62px;
+}
+
+.footer__graphic-designs .footer__title {
+	margin-bottom: 16px;
+	font-weight: 700;	
+}
+
+.footer__graphic-designs .footer__website {
+	font-size: 15px;
+	color: #606060;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+
+.footer__graphic-designs .footer__website:hover {
+	color: #000;
+}
+
+/* ------------------------------------------------------------ *\
+	Form
+\* ------------------------------------------------------------ */
+
+.form {
+	background-color: rgba(0, 127, 157, 0.7);
+	padding: 70px 204px 48px 184px;
+	margin-bottom: 46px;
+}
+
+.form-head {
+	text-align: center;
+	margin-bottom: 21px;
+}
+
+.form-head .form__title {
+	color: #fff;
+}
+
+.form__row {
+	border-bottom: 1px solid #ccdadd;
+	margin-bottom: 14px;
+}
+
+.field {
+	width: 100%;
+	border: none;
+	background-color: transparent;
+	padding-bottom: 10px;
+}
+
+.field,
+.field::placeholder {
+	font-size: 14px;
+	letter-spacing: 0px;
+	color: #fff;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.field--email {
+	width: 332px;
+}
+
+.field--phone {
+	width: 227px;
+	padding-left: 10px;
+}
+
+.form__controls--separator {
+	position: relative;
+}
+
+.form__controls--separator:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 2px;
+	height: 12px;
+	background-color: #ccdadd;
+	left: 109px;
+	right: 0;
+	top: 0;
+	bottom: 12px;
+	margin: auto;
+}
+
+.form__actions {
+	text-align: right;
+}
+
+.form__actions .btn {
+	border: none;
+	background-color: transparent;
+	font-size: 13px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	margin-right: 2px;
+	cursor: pointer;
+	transition: .3s;	
+}
+
+.form__actions .btn:hover {
+	color: #C8C7C7;
+}
+
+/* ------------------------------------------------------------ *\
+	Footer directions
+\* ------------------------------------------------------------ */
+
+.footer__directions {
+	display: inline-block;
+	vertical-align: middle;
+	height: 65px;
+	line-height: 65px;
+	background-color: #007f9d;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 42px;
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	transition: .3s;
+}
+
+.footer__directions:hover {
+	background-color: #036B84;
+	color: #fff;
+}
+
+/* ------------------------------------------------------------ *\
+	Footer bottom
+\* ------------------------------------------------------------ */
+
+.footer__bottom {
+	display: inline-block;
+	width: 100%;
+	background-color: #115068;	
+	padding: 29px 0 38px 28px;
+}
+
+/* ------------------------------------------------------------ *\
+	Footer nav
+\* ------------------------------------------------------------ */
+
+.footer__nav {
+	float: left;
+}
+
+.footer__nav ul {
+	list-style: none;
+}
+
+.footer__nav li {
+	float: left;
+}
+
+.footer__nav li + li {
+	margin-left: 73px;
+}
+
+.footer__nav a {
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #fff;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	transition: .3s;
+}
+
+.footer__nav a:hover {
+	color: #B7B7B7;
+}
+
+/* ------------------------------------------------------------ *\
+	Footer terms
+\* ------------------------------------------------------------ */
+
+.footer__terms {
+	float: right;
+}
+
+.footer__terms .footer__entry {
+	font-size: 16px;
+	color: #fff;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	margin: 2px 27px 0 0;
+}
+
+.footer__terms .footer__entry span {
+	margin: 0 9px;
+}
+
+.footer__terms .footer__entry a {
+	color: #fff;
+	transition: .2s;
+}
+
+.footer__terms .footer__entry a:hover {
+	color: #B7B7B7;
+}

@@ -1,0 +1,13 @@
+@import url('fonts.css');
+@import url('font-awesome.css');
+@import url('reset.css');
+@import url('bootstrap.css');
+@import url('general.css');
+
+/*Layout*/
+@import url('layout/topbar.css');
+@import url('layout/how_it_works.css');
+@import url('layout/fresh_mint.css');
+@import url('layout/customer_thoughts.css');
+@import url('layout/footer.css');
+

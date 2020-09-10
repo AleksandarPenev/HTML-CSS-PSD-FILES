@@ -1,0 +1,25 @@
+.customers {
+	background-color: #161f32;
+	padding: 66px 0 70px;
+}
+
+.customers h2 {
+	font-size: 30px;
+	font-family: 'latoregular';
+	color: #fff;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.customers p {
+	font-size: 15px;
+	font-family: 'latoregular';
+	color: #fff;
+	text-align: center;
+	margin: 0 auto 64px;
+}
+
+.customers img {
+	margin-right: 30px;
+}
+

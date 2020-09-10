@@ -1,0 +1,169 @@
+.designes1 {
+	padding: 67px 0 0;
+}
+
+.designes1 .designes_top {
+	padding-bottom: 68px;
+}
+
+.designes1 .designes_top h2 {
+	font-size: 30px;
+	font-family: 'latoregular';
+	color: #3d506f;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.designes1 .designes_top h3 {
+	font-size: 20px;
+	font-family: 'latoregular';
+	text-align: center;
+	margin-bottom: 30px;
+	color: #7f90a5;
+}
+
+.designes1 .designes_top .line {
+	height: 1px;
+	background-color: #7f90a5;
+	max-width: 571px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 33px;
+}
+
+.designes1 .designes_top p {
+	font-size: 15px;
+	font-family: 'latoregular';
+	color: #7f90a5;
+	text-align: center;
+	max-width: 755px;
+	margin: 0 auto;
+}
+
+.designes1 .buttons {
+	margin: 0 auto 68px;
+	text-align: center;
+}
+
+.designes1 .buttons a {
+	background-color: #3d506f;
+	margin-right: 20px;
+	padding: 10px 21px 12px 22px;	
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'latoregular';	
+	color: #fff;
+	transition: 0.3s;
+}
+
+.designes1 .buttons a:hover {
+	background-color: #00c7fb;
+}
+
+.designes1 .brand {
+	width: 100%;
+	max-width: 270px;
+	height: 200px;
+	background-color: #546278;
+	padding: 77px 0 83px;
+	transition: 0.3s;
+	margin: 0 auto 20px;
+}
+
+.designes1 .brand h3 {
+	font-size: 20px;
+	font-family: 'latoregular';	
+	color: #fff;
+	text-align: center;
+	display: none;
+	transition: 0.3s;
+}
+
+.designes1 .brand h4 {
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	font-family: 'latoregular';	
+	display: none;
+	transition: 0.3s;
+}
+
+.designes1 .brand:hover {
+	background-color: #222c40;
+	cursor: pointer;
+}
+
+.designes1 .brand:hover h3 {
+	display: block;
+}
+
+.designes1 .brand:hover h4 {
+	display: block;
+}
+
+.designes_middle a {
+	width: 55px;
+	height: 55px;
+	background-color: #3d506f;
+	border-radius: 55px;
+	color: #fff;
+	display: block;
+	margin: 0 auto 65px;
+	padding: 18px 18px;
+	transition: 0.3s;
+}
+
+.designes_middle a i {
+	font-size: 21px;
+	text-align: center;
+}
+
+.designes_middle a:hover {
+	background-color: #222c40;
+}
+
+.designes_bottom h2 {
+	font-size: 30px;
+	font-family: 'latoregular';	
+	color: #3d506f;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.designes_bottom_txt p {
+	font-size: 15px;
+	color: #7f90a5;
+	font-family: 'latoregular';	
+	margin-bottom: 66px;
+	text-align: center;
+}
+
+.designes_bottom_btn {
+	text-align: center;
+}
+
+.designes_bottom_btn a {
+	font-size: 15px;
+	font-family: 'latoregular';	
+	color: #fff;
+	padding: 20px 30px;
+	background-color: #3d506f;
+	text-decoration: none;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.designes_bottom_btn a:hover {
+	background-color: #333F52;
+}
+
+
+@media (max-width: 768px) {
+
+	.designes1 .buttons {
+    	text-align: center;
+
+	}
+	.designes1 .buttons a {
+		line-height: 3;
+}

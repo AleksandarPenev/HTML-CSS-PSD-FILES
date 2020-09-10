@@ -1,0 +1,140 @@
+footer .container-fluid:first-child .row:after {
+	content:'';
+	display: block;
+	background: #8290a2;
+	height: 1px;
+	margin: 0 15px;
+}
+
+.text {
+	color: #ffffff;
+	font-size:40px;
+	font-weight: 900;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 41px;
+	padding: 53px 0 56px 0;
+	width: 100%;
+}
+
+.text span:first-child {
+	margin-bottom: 10px;
+}
+
+.text span {
+	display:block;
+}
+
+
+#subscribe {
+	position: relative;
+	border: 1px solid #96a2a4;
+	height: 70px;
+	max-width: 475px;
+	width: 100%;
+	background: #ffffff;
+	color: #919eb1;
+	float: right;
+	margin-top: 82px;
+	font-size: 15px;
+	padding: 0 65px 0 25px;
+	outline: none;
+}
+
+#sub_button {
+	position: absolute;
+	bottom: 1px;
+	right: 16px;
+	border: 0;
+	outline: none;
+	background-color: #fff;
+	font-size: 31px;
+	transition: 0.3s;
+	height: 68px;
+	width: 65px;
+}
+
+#sub_button:hover {
+	background-color: #E9E9E9;
+}
+
+#sub_button:hover i {
+	color: #646161;
+}
+
+footer .row:nth-child(2) {
+	margin-top: 80px;
+}
+
+footer h3 {
+	font-size: 25px;
+	color: #ffffff;
+	line-height: 23px;
+	margin-bottom: 30px;
+}
+
+footer h4 {
+	font-size: 13px;
+	text-transform: uppercase;
+	color:#919eb1;
+	line-height: 13px;
+	margin-bottom: 3px;
+}
+
+footer p {
+	font-family: 'worksans';
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+footer ul li {
+	line-height: 13px;
+}
+
+footer ul li:first-child {
+	padding-top:0;
+}
+
+footer ul li:nth-child(4) {
+	padding-bottom: 50px;
+}
+
+footer ul li a {
+	color: #ffffff;
+	font-size:13px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 27px 0 0 0;
+	transition: 0.3s;
+}
+
+footer ul li a:hover {
+	color: #919eb1;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+/*Xsmall*/
+
+@media (max-width: 767px) {
+	footer #subscribe {
+		display: inline-block;
+		margin: 0;
+		max-width: 100%;
+		float: none;
+	}
+	footer h3, footer p {
+		margin: 20px 0;
+		text-align: center;
+	}
+	footer p {
+		line-height: 20px;
+		padding-bottom: 30px;
+	}
+	.col-xs-3 {
+		padding: 0;
+		text-align: center;
+	}
+}

@@ -1,0 +1,141 @@
+.skills {
+	padding: 70px 0 68px;
+}
+
+.skills h2 {
+	font-size: 30px;
+	font-family: 'latoregular';	
+	text-align: center;
+	color: #3d506f;
+	margin-bottom: 26px;
+}
+
+.skills p {
+	font-size: 15px;
+	font-family: 'latoregular';	
+	color: #7f90a5;
+	max-width: 754px;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto 69px;
+}
+
+.company h3 {
+	font-size: 25px;
+	font-family: 'latoregular';	
+	color: #3d506f;
+	margin-bottom: 11px;
+}
+
+.company p {
+	font-size: 15px;
+	font-family: 'latoregular';	
+	color: #7f90a5;
+	text-align: left;
+	margin: 0 0 18px;
+    text-align: left;
+    max-width: 570px;
+    width: 100%;
+}
+
+.company a {
+	background-color: #3d506f;
+	font-size: 15px;
+	font-family: 'latoregular';	
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 47px;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.company a:hover {
+	background-color: #2C3A52;
+}
+
+.our_skills h3 {
+	font-size: 25px;
+	font-family: 'latoregular';	
+	color: #3d506f;
+	margin-bottom: 11px;
+}
+
+.our_skills .html_css {
+	width: 508px;
+	max-width: 80%;
+	height: 42px;
+	background-color: #3d4f6f;
+	padding: 10px 0 17px 16px;
+	margin-bottom: 8px;
+}
+
+.our_skills .html_css p {
+	text-align: left;
+	width: 100%;
+	font-family: 'latoregular';	
+	color: #fff;
+}
+
+.our_skills .Javascript {
+	width: 466px;
+	max-width: 70%;
+	height: 42px;
+	background-color: #3d4f6f;
+	padding: 10px 0 17px 16px;
+	margin-bottom: 8px;
+}
+
+.our_skills .Javascript p {
+	text-align: left;
+	width: 100%;
+	font-family: 'latoregular';	
+	color: #fff;
+}
+
+.our_skills .GraphicDesign {
+	width: 523px;
+	max-width: 85%;
+	height: 42px;
+	background-color: #3d4f6f;
+	padding: 10px 0 17px 16px;
+	margin-bottom: 8px;
+}
+
+.our_skills .GraphicDesign p {
+	text-align: left;
+	width: 100%;
+	font-family: 'latoregular';	
+	color: #fff;
+}
+
+.our_skills .Photography {
+	width: 497px;
+	max-width: 75%;
+	height: 42px;
+	background-color: #3d4f6f;
+	padding: 10px 0 17px 16px;
+	margin-bottom: 8px;
+}
+
+.our_skills .Photography p {
+	text-align: left;
+	width: 100%;
+	font-family: 'latoregular';	
+	color: #fff;
+}
+
+@media (max-width: 992px) {
+	.company {
+		text-align: center;
+	}
+	.company p {
+		margin: 0 auto 20px;
+		text-align: center;
+	}
+	.company a {
+		margin-bottom: 40px;
+	}
+	.our_skills h3 {
+		text-align: center;
+	}
+}

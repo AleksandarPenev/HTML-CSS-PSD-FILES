@@ -1,0 +1,32 @@
+.how_it_works {
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.how_it_works h2 {
+	margin-bottom: 60px;
+}
+
+.how_it_works .circle {
+	width: 142px;
+	height: 142px;
+	border-radius: 142px;
+	border: 1px solid #eea264;
+	position: relative;
+	margin: 0 auto;
+}
+
+.how_it_works .circle img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+.how_it_works p {
+	margin-top: 36px;
+	font-size: 14px;
+	color: #333333;
+}

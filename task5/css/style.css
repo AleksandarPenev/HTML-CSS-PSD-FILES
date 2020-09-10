@@ -1,0 +1,374 @@
+/* ------------------------------------------------------------ *\
+	Reset
+\* ------------------------------------------------------------ */
+
+* { 
+	padding: 0; 
+	margin: 0; 
+	outline: 0; 
+	box-sizing: border-box; 
+}
+
+*:before,
+*:after { 
+	box-sizing: inherit; 
+}
+
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+body { 
+	font-family: 'Roboto', 'Arial', sans-serif; 
+	font-size: 23px; 
+	color: #000;
+}
+
+a { 
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #858585;
+}
+
+h1 {
+	font-size: 47px;
+	line-height: 1.39;
+	font-weight: 100;
+	font-family: 'Playfair Display', serif;
+}
+
+h2 {
+	font-size: 47px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 100;
+}
+
+h3 {
+	font-size: 17px;
+	letter-spacing: 3px;
+}
+
+h4 {
+	font-size: 15px;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+h6 {
+	font-size: 10px;
+}
+
+/* ------------------------------------------------------------ *\
+	Clear
+\* ------------------------------------------------------------ */
+
+.clear {
+	position: relative;
+}
+
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ------------------------------------------------------------ *\
+	Shell
+\* ------------------------------------------------------------ */
+
+.shell {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* ------------------------------------------------------------ *\
+	Logo
+\* ------------------------------------------------------------ */
+
+.logo {
+	float: left;
+	padding: 43px 0 37px 0;
+	margin-left: 36px;
+}
+
+/* ------------------------------------------------------------ *\
+	Navigation
+\* ------------------------------------------------------------ */
+
+.nav {
+	float: right;
+	padding: 49px 3px 37px 0;
+	max-width: 525px; 
+}
+
+.nav ul {
+	list-style: none;
+}
+
+.nav li {
+	float: left;
+}
+.nav li + li {
+	margin-left: 40px;
+}
+
+.nav a {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+
+/* ------------------------------------------------------------ *\
+	Hero
+\* ------------------------------------------------------------ */
+
+.hero .hero__img {
+	height: 657px;
+	background-size: cover;
+	position: relative;
+}
+
+.hero .hero__img img {
+	position: absolute;
+	right: 428px;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+}
+
+.hero .hero__img .entry {
+	position: absolute;
+	bottom: 203px;
+	right: 431px;
+	margin: auto;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 5px;
+}
+
+
+/* ------------------------------------------------------------ *\
+	Section features
+\* ------------------------------------------------------------ */
+
+.section__features {
+	padding-top: 142px;
+}
+
+.section__features .section__features__head {
+	text-align: center;
+	width: 1000px;
+	margin: 0 0 158px 152px;
+}
+
+/* ------------------------------------------------------------ *\
+	Posts
+\* ------------------------------------------------------------ */
+
+.post {
+	display: flex;
+	justify-content: space-between;
+}
+
+.post--centered {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 156px;
+}
+
+.post__content {
+	max-width: 585px;
+	padding-left: 70px;
+	margin-top: -10px;
+}
+
+.post__content h3 {
+	text-transform: uppercase;
+	font-weight: 1000;
+	margin-bottom: 32px; 	
+}
+
+.post__content .entry {
+	font-family: 'Playfair Display', serif;
+	line-height: 39px;
+}
+
+.post--bottom {
+	max-width: 550px;
+}
+
+.post--bottom--left {
+	padding-left: 49px;
+}
+
+/* ------------------------------------------------------------ *\
+	Social
+\* ------------------------------------------------------------ */
+
+.section-social {
+	padding: 145px 0 139px 144px;
+}
+
+.section-social-head {
+	max-width: 930px;
+	text-align: center;
+	margin: 0 0 145px 120px;
+}
+
+.section-social .images img {
+	margin-right: 10px;
+}
+
+.list-feed {
+	list-style: none;
+}
+
+.list-feed li {
+	float: left;
+}
+
+.list-feed li + li {
+	margin-left: 16px;
+}
+
+/* ------------------------------------------------------------ *\
+	Section form
+\* ------------------------------------------------------------ */
+
+.section-form {
+	padding-left: 213px;
+	margin-bottom: 100px;
+}
+
+.section-form-head {
+	text-align: center;
+	max-width: 1000px;
+	line-height: 1.29;
+	font-size: 46px;
+	word-spacing: -3px;
+	margin: 0 0 150px 28px;
+}
+
+
+/* ------------------------------------------------------------ *\
+	Form
+\* ------------------------------------------------------------ */
+
+.form .form__body {
+	margin-bottom: 32px;
+}
+
+.form .form__label {
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 3px;
+}
+
+.form__controls {
+	width: 1056px;
+}
+
+.form .form__actions .btn--black {
+	height: 67px;
+	line-height: 67px;
+	background-color: #010101;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 0 46px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	border: none;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.form .form__actions .btn--black:hover {
+	background-color: #4A4A4A;
+}
+
+/* ------------------------------------------------------------ *\
+	Field
+\* ------------------------------------------------------------ */
+
+.field {
+	height: 68px;
+	width: 100%;
+	font-size: 20px;
+	padding: 24px 22px;
+	margin: 24px 0 74px;
+	border: 1px solid #d5d5d5; 
+}
+
+.field:focus {
+	border: 1px solid #000;
+}
+
+.field--textarea {
+	height: 233px;
+	width: 100%;
+	margin: 22px 0 0 0;
+	resize: none;
+}
+
+
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer {
+	padding: 65px 0 67px 220px;
+}
+
+.footer__social {
+	float: left;
+	max-width: 250px;
+	margin-top: -18px;
+}
+
+.footer__social__head {
+	text-transform: uppercase;
+	font-weight: 900;
+	line-height: 27px;
+	margin-bottom: 32px;
+}
+
+.social-imgs a + a {
+	margin-left: 21px;
+}
+
+.social-imgs img {
+	transition: .3s;
+}
+
+.social-imgs a:hover img {
+	transform: scale(1.1);
+}
+
+.address {
+	float: right;
+	font-family: 'Playfair Display', serif;
+	font-weight: 500; 	
+	font-size: 24px;
+	margin: 3px 188px 0 0;
+	line-height: 1.71;
+}
+
+.footer__logo {
+	margin-left: 211px;
+}
+
+.footer__rights {
+	font-size: 16px;
+	margin: 75px 148px 0 0px;
+	text-align: center;
+}

@@ -1,0 +1,492 @@
+/* ------------------------------------------------------------ *\
+	Reset
+\* ------------------------------------------------------------ */
+
+* { 
+	padding: 0; 
+	margin: 0; 
+	outline: 0; 
+	box-sizing: border-box; 
+}
+
+*:before,
+*:after { 
+	box-sizing: inherit; 
+}
+
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+body { 
+	font-family: 'Roboto', 'Arial', sans-serif; 
+	font-size: 15px; 
+	color: #737373;
+	line-height: 1.6;
+	background-color: #f2f2f2;
+}
+
+a { 
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #858585;
+}
+
+h1 {
+	font-size: 40px;
+	color: #434343;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 47px;
+}
+
+h3 {
+	font-size: 17px;
+}
+
+h4 {
+	font-size: 15px;
+}
+
+h5 {
+	font-size: 12px;
+}
+
+h6 {
+	font-size: 10px;
+}
+
+/* ------------------------------------------------------------ *\
+	Clear
+\* ------------------------------------------------------------ */
+
+.clear {
+	position: relative;
+}
+
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ------------------------------------------------------------ *\
+	Shell
+\* ------------------------------------------------------------ */
+
+.shell {
+	width: 892px;
+	margin: 0 auto;
+}
+
+/* ------------------------------------------------------------ *\
+	Wrapper
+\* ------------------------------------------------------------ */
+
+.wrapper {
+	width: 959px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header {
+	padding-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 1px solid #e5e5e5;
+	box-shadow: 0 4px 6px 0px #e5e5e5;
+}
+
+.header .logo {
+	float: left;
+	margin-top: 23px;
+}
+
+.header .logo:after {
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 30px;
+	background-color: #cecece;
+	margin: 0 18px 0;
+}
+
+.header .caption {
+	float: left;
+	font-size: 13px;
+	margin-top: 31px;
+}
+
+.header .caption span {
+	color: #0099cc;
+}
+
+/* ------------------------------------------------------------ *\
+	Form
+\* ------------------------------------------------------------ */
+
+.form__head {
+	margin: 31px 0 32px 15px;
+}
+
+.form__section-head {
+	padding-left: 16px;
+	margin-bottom: 40px;	
+}
+
+.form__section-head-nonprofit {
+	margin: 74px 0 28px;
+}
+
+.entry {
+	width: 830px;
+	margin: 0 0 59px 17px;
+}
+
+.form__section-head-nonprofit-second {
+	margin: 90px 0 47px;
+}
+
+.form__section-head:after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #dcdcdc; 
+	margin-top: 18px;
+}
+
+.form__row + .form__row {
+	margin-top: 20px;
+}
+
+.form__col {
+	display: inline-block;
+	padding-left: 48px;
+}
+
+.form__col__labels {
+	display: inline-block;
+	width: 188px;
+	text-align: right;
+}
+
+.form__col__city,
+.form__col__country,
+.form__col__state,
+.form__col__zip {
+	padding-left: 0;
+}
+
+.form__label {
+	font-weight: 700;
+}
+
+.form__hint {
+	margin-left: 14px;
+} 
+
+.form__hint__text {
+	font-size: 13px;
+	margin-right: 5px;	
+}
+
+.form__col__labels__address {
+	vertical-align: top;
+	margin-top: 8px;
+}
+
+.form__col__labels__about {
+	vertical-align: top;
+	margin-top: 9px;
+}
+
+.form__col__about {
+	text-align: right;
+}
+
+/* ------------------------------------------------------------ *\
+	Field
+\* ------------------------------------------------------------ */
+
+.field,
+.select_field {
+	height: 43px;
+	border: 1px solid #cacaca;
+	border-radius: 5px;
+	padding: 0 16px;
+	font-size: 15px;
+	appearance: none;
+	transition: 0.3s; 
+}
+
+.field:focus,
+.select_field:focus {
+	box-shadow: 0px 0px 8px 0px rgba(158,200,235,1);	
+}
+
+.select_field {
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgb(255,255,255) 0%, rgb(255,255,255) 47%, rgb(255,255,255) 47%, rgb(255,255,255) 51%, rgb(225,225,225) 51%, rgb(241,241,241) 51%, rgb(246,246,246) 100%);
+	background: -webkit-linear-gradient(top,  rgb(255,255,255) 0%,rgb(255,255,255) 47%,rgb(255,255,255) 47%,rgb(255,255,255) 51%,rgb(225,225,225) 51%,rgb(241,241,241) 51%,rgb(246,246,246) 100%);
+	background: linear-gradient(to bottom,  rgb(255,255,255) 0%,rgb(255,255,255) 47%,rgb(255,255,255) 47%,rgb(255,255,255) 51%,rgb(225,225,225) 51%,rgb(241,241,241) 51%,rgb(246,246,246) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+}
+
+.select {
+	position: relative;
+}
+
+.select:after {
+	position: absolute;
+	content: '';
+	display: inline-block;
+	top: -2px;
+	bottom: 0;
+	right: 20px;
+	margin: auto;
+	width: 5px;
+	height: 12px;
+	background: url(images/arrows.png);
+}
+
+.text_field {
+	height: 119px;
+	resize: none;
+	min-width: 430px;
+	padding: 12px 0 0 14px;
+	margin-bottom: -2px;
+}
+
+.field-fname {
+	width: 208px;
+}
+
+.field-lname {
+	width: 209px;
+	margin-left: -40px;
+}
+
+.select_field-title {
+	width: 430px;
+	margin-bottom: 1px;
+}
+
+.field_number {
+	width: 237px;
+}
+
+.field_email {
+	width: 322px;
+}
+
+.field_ein {
+	width: 240px;
+}
+
+.field_nonprofit_name {
+	width: 430px;
+	margin-bottom: 2px;
+}
+
+.field_street {
+	width: 430px;
+	margin-bottom: 2px;
+}
+
+.field_city {
+	width: 237px;
+}
+
+.field_country {
+	width: 125px;
+	margin-left: 14px;
+}
+
+.select_field_state {
+	width: 110px;
+}
+
+.field_zip {
+	width: 110px;	
+	margin: 0 0 1px 13px;
+}
+
+.select_field_category {
+	width: 430px;
+	margin-bottom: 2px;
+}
+
+.field_website {
+	width: 430px;
+}
+
+.select_field_budget {
+	width: 430px;
+	margin-bottom: 3px;
+}
+
+.field_organization_phone {
+	width: 237px;
+}
+
+.field_organization_email {
+	width: 322px; 
+	margin-bottom: 4px;
+}
+
+.field_administrator {
+	width: 322px;
+}
+
+/* ------------------------------------------------------------ *\
+	Checkbox
+\* ------------------------------------------------------------ */
+
+.checkbox {
+	margin: 26px 0 20px -13px;
+	text-align: center;
+}
+
+.checkbox input {
+	padding: 0;
+	height: initial;
+	width: initial;
+	margin-bottom: 0;
+	display: none;
+	cursor: pointer;
+}
+
+.checkbox label {
+	position: relative;
+	cursor: pointer;
+	font-size: 13px; 
+	word-spacing: 1px;
+}
+
+.checkbox label:before {
+	content:'';
+	appearance: none;
+	background-color: transparent;
+	border: 1px solid #a7a7a7;
+	padding: 5px;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+.checkbox input:checked + label:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 3px;
+	left: 4px;
+	width: 5px;
+	height: 9px;
+	border: solid #000;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+
+/* ------------------------------------------------------------ *\
+	Form terms and conditions
+\* ------------------------------------------------------------ */
+
+.form__label__terms {
+	margin-right: 91px;
+	color: #999999;
+}
+
+.form__label__terms a {
+	text-decoration: underline;
+	color: #999999;
+	transition: .3s;
+}
+
+.form__label__terms a:hover {
+	color: #000;	
+}
+
+/* ------------------------------------------------------------ *\
+	Buttons
+\* ------------------------------------------------------------ */
+
+.form__actions {
+	text-align: center;
+	margin: 0 34px 27px 0px;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	height: 43px;
+	line-height: 43px;
+	font-weight: 15px;
+	padding: 0 71px 0 77px;
+	color: #fff;
+	font-weight: 900;
+	transition: .3s;
+	border-radius: 5px;
+}
+
+.btn--darkblue {
+	background-color: #03729e;
+	margin-right: 10px;
+}
+
+.btn--darkblue:hover {
+	background-color: #0693CB;
+	color: #fff;	
+}
+
+.btn--blue {
+	background-color: #0099cc;
+	border: none;
+	padding: 0 63px 0 69px;
+	cursor: pointer;
+}
+
+.btn--blue:hover {
+	background-color: #0579A0;
+}
+
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer {
+	padding: 17px 0 26px 0;
+	text-align: center;
+	border-top: 1px solid #f0f0f0;
+}
+
+.footer .entry {
+	font-weight: 900;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.footer .entry span {
+	margin: 0 9px;
+}
+
+.footer .entry a {
+	color: #737373;
+	transition: .3s;	
+}
+
+.footer .entry a:hover {
+	color: #313131;
+	text-decoration: underline;
+}

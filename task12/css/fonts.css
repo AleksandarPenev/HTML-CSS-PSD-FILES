@@ -1,0 +1,30 @@
+/* ------------------------------------------------------------ *\
+	Fonts
+\* ------------------------------------------------------------ */
+
+@font-face {
+    font-family: 'ITC Avant Garde Pro';
+    src: url('fonts/ITCAvantGardePro-Bold.woff2') format('woff2'),
+        url('fonts/ITCAvantGardePro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Pro';
+    src: url('fonts/ITCAvantGardePro-Md.woff2') format('woff2'),
+        url('fonts/ITCAvantGardePro-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Pro';
+    src: url('fonts/ITCAvantGardePro-Bk.woff2') format('woff2'),
+        url('fonts/ITCAvantGardePro-Bk.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'MrsAnt';
+	src: url('fonts/MrsAnt-Regular.woff2') format('woff2'),
+		url('fonts/MrsAnt-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Tomarik-Brush';
+	src: url('fonts/Tomarik-Brush.woff2') format('woff2'),
+		url('fonts/Tomarik-Brush.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('fonts/BrandonGrotesque-Bold.woff2') format('woff2'),
+		url('fonts/BrandonGrotesque-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	src: url('fonts/BrandonGrotesque-Regular.woff2') format('woff2'),
+		url('fonts/BrandonGrotesque-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
